@@ -17,11 +17,12 @@
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
-    <meta property="og:image" content="http://i.imgbox.com/FVXzVeXv.png">
-   
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
     <!--<link href="/favicon.png" rel="icon">-->
     <link href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
+    
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
     <!-- If you want to contribute with any link or tool, contact us reddottf[at]gmail[dot]com -->
   </head>

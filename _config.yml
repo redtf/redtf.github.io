@@ -7,7 +7,7 @@ email: reddotf@gmail.com
 author: redtf
 baseurl: ""
 keywords: "red team, hacking, tools, hacking tools, red team resources"
-description: "Hello, soldier.\nWelcome to red team field.\nWe try to get the best resources for you campaigns.\nWe hope you find all you need.\nAnd remember, if you collaborate with us, others brothers will have better resources and information.\nGreetings,\nRedTF."
+description: "Welcome to red team field. We try to get the best resources for you campaigns."
 
 # Build settings ...
 sass:

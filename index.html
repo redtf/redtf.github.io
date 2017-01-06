@@ -5,8 +5,7 @@ layout: default
         <div class="content-col-wrapper">
           <div class="content-col">
             <div class="dummy">
-              <b><span class="big">Hi!</span></b> {{ site.description }}
-              <a href="mailto:{{ site.email }}"><b>{{ site.email }}</b></a>. <br><br>
+              <b><span class="big">Hello, soldier.</span></b>{{ site.description }}
               <!--
               ♨ <b><span class="big">What is your category?</span></b><br>
 
@@ -34,24 +33,22 @@ layout: default
               </div><br> -->
 
               <div class="dummy blogpost">
-                ✍ <b><span class="big">Writings.</span></b>
+              <b><span class="big">Writings.</span></b>
               </div>
             </div><p></p><p></p>
               <ul class="post-list">{% for post in paginator.posts %}
                 <li class="titlepost">
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: %m/%d/%Y" }} </a>
                 </li>
-                <li class="datepost">
-                  <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
-                </li>{% endfor %}
+                {% endfor %}
               </ul>
           </div>
         </div>{% if paginator.previous_page %}
           <a href="{{ paginator.previous_page_path }}">
-            <b><span class="big">Balik Lagi</span></b>
+            <b><span class="big">Previous</span></b>
           </a>{% else %}{% endif %}{% if paginator.next_page %}
           <a href="{{ paginator.next_page_path }}">
-            <b><span class="big">Lanjut</span></b>
+            <b><span class="big">Next</span></b>
           </a>{% else %}{% endif %}
         <nav class="site-nav">
         <a href="#" class="menu-icon">
