@@ -1,1 +1,25 @@
-theme: jekyll-theme-hacker
+# Site settings ...
+uri: red.tf
+url: https://red.tf
+name: Read Team Field
+title: Red Team Field
+email: reddotf@gmail.com
+author: redtf
+baseurl: ""
+keywords: "red team, hacking, tools, hacking tools, red team resources"
+description: "Hello, soldier.\nWelcome to red team field.\nWe try to get the best resources for you campaigns.\nWe hope you find all you need.\nAnd remember, if you collaborate with us, others brothers will have better resources and information.\nGreetings,\nRedTF."
+
+# Build settings ...
+sass:
+  style: compressed
+markdown: kramdown
+encoding: "utf-8"
+paginate: 5
+permalink: /post/:title
+paginate_path: "/page/:num/"
+
+# Plugins ...
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
