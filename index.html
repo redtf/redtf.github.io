@@ -5,7 +5,12 @@ layout: default
         <div class="content-col-wrapper">
           <div class="content-col">
             <div class="dummy">
-              <b><span class="big">Hello, soldier.</span></b>{{ site.description }}
+              <b><span class="big">Hello,</span> soldier</b>.<br><br>
+              Welcome to red team field.<br><br>
+              We try to get the best resources for you campaigns.<br><br>
+              Greetings,<br><br>
+              Red Team Field<br><br>
+              
               <!--
               ♨ <b><span class="big">What is your category?</span></b><br>
 
@@ -38,7 +43,7 @@ layout: default
             </div><p></p><p></p>
               <ul class="post-list">{% for post in paginator.posts %}
                 <li class="titlepost">
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: %m/%d/%Y" }} </a>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }} - {{ post.date | date: "%m/%d/%Y" }} </a>
                 </li>
                 {% endfor %}
               </ul>
