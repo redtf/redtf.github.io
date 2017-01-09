@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CTF Albania 2016"
-date: 2017-09-02
+date: 2017-01-09
 author: redtf
 sitemap: false
 keywords: "CTF Albania 2016"
@@ -17,5 +17,5 @@ It uses DHCP.
 
 Note: VMware users may have issues with the network interface doing down by default. We recommend (for once!) using Virtualbox. 
 
-[**`VulnHub Albania 2016`**](https://www.vulnhub.com/entry/hackday-albania,167/)
-[**`Write-Up Albania 2016 CTF`**]({{ site.baseurl }}/pdfs/albania_ctf_2016.pdf) (Spanish)
+* [**`VulnHub Albania 2016`**](https://www.vulnhub.com/entry/hackday-albania,167/)
+* [**`Write-Up Albania 2016 CTF`**]({{ site.baseurl }}/pdfs/albania_ctf_2016.pdf) (Spanish)
