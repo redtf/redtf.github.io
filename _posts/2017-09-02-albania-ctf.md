@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CTF Albania 2016"
-date: 2016-05-05T10:02:20+07:00
+date: 2017-09-02
 author: redtf
 sitemap: false
 keywords: "CTF Albania 2016"

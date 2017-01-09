@@ -110,6 +110,12 @@
 .error404 {
     text-align: center;
 }
+.error404 .h1{
+    font-size: 40px;
+}
+.error404 .h2{
+    font-size: 30px;
+}
 
 @keyframes bad {
     0% {
@@ -336,7 +342,7 @@
     margin-bottom: $spacing-unit + 10;
 }
 
-.post-title {
+.h1:first-of-type {
     font-size: 1.5em;
     font-family: $halant;
     letter-spacing: -1px;
