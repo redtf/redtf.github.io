@@ -107,12 +107,8 @@
 /**
  * 404 Style
  */
-.badface {
-    opactiy: 0;
-    animation: bad 3s;
-    animation-iteration-count: infinite;
-    position: relative;
-    width: 200px;
+.error404 {
+    text-align: center;
 }
 
 @keyframes bad {
@@ -341,6 +337,8 @@
 }
 
 .post-title {
+    font-size: 1.5em;
+    font-family: $halant;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
@@ -363,7 +361,6 @@
 .post-detail {
     font-family: $cutive;
     font-size: 13.5px;
-    text-align: center;
     margin-top: -10px;
 }
 
