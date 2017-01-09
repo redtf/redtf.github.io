@@ -13,5 +13,3 @@ description: "Documents"
 * [**`RTFM: Red Team Field Manual`**](https://www.amazon.es/Rtfm-Red-Team-Field-Manual/dp/1494295504)
 * [**`Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers`**](https://www.amazon.es/Violent-Python-Cookbook-Penetration-Engineers/dp/1597499579)
 * [**`iOS Security Application`**](https://www.amazon.es/iOS-Application-Security-Definitive-Developers/dp/159327601X)
-
-If you want to add a book or document, you will send it by email.
