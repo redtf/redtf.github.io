@@ -1,25 +1,29 @@
-# Site settings ...
+---
+title: Red Team Field
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 uri: red.tf
 url: https://red.tf
 name: Read Team Field
-title: Red Team Field
 email: reddotf@gmail.com
 author: redtf
-baseurl: ""
-keywords: "red team, hacking, tools, hacking tools, red team resources"
-description: ""
-
-# Build settings ...
+baseurl: ''
+keywords: red team, hacking, tools, hacking tools, red team resources
+description: ''
 sass:
   style: compressed
 markdown: kramdown
-encoding: "utf-8"
+encoding: utf-8
 paginate: 5
-permalink: /:title
+permalink: "/:title"
 paginate_path: "/page/:num/"
-
-# Plugins ...
 gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
+- jekyll-paginate
+- jekyll-sitemap
+- jemoji

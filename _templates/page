@@ -1,9 +1,0 @@
----
-layout: {{ layout }}
-title: "{{ title }}"
-date: {{ date }}
-author: redtf
-sitemap: true
-keywords: ""
-description: ""
----

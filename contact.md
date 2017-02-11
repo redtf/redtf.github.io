@@ -1,8 +1,8 @@
 ---
+title: Contact
 layout: page
-title: "Contact"
-keywords: "Contact"
-description: "Contact"
+keywords: Contact
+description: Contact
 ---
 
 # CONTACT 

@@ -1,8 +1,8 @@
 ---
+title: Documents
 layout: page
-title: "Documents"
-keywords: "Documents"
-description: "Documents"
+keywords: Documents
+description: Documents
 ---
 
 # DOCUMENTS

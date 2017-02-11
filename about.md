@@ -1,8 +1,8 @@
 ---
+title: About
 layout: page
-title: "About"
-keywords: "About"
-description: "About"
+keywords: About
+description: About
 ---
 
 # ABOUT 

@@ -1,10 +1,10 @@
 ---
-layout: {{ layout }}
 title: "{{ title }}"
-date: {{ date }}
+layout: {}
 author: redtf
 sitemap: false
-keywords: ""
-description: ""
+keywords: ''
+description: ''
 ---
+
 <!--more-->

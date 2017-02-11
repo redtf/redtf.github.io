@@ -1,11 +1,11 @@
 ---
+title: CTF Albania 2016
+date: 2017-01-09 00:00:00 Z
 layout: post
-title: "CTF Albania 2016"
-date: 2017-01-09
 author: redtf
 sitemap: false
-keywords: "CTF Albania 2016"
-description: "CTF Albania 2016"
+keywords: CTF Albania 2016
+description: CTF Albania 2016
 ---
 
 # Write-Up Albania 2016 CTF
