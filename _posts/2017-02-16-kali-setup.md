@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Kali Script 
 
@@ -19,4 +19,3 @@ Features:
 - Install httptunnel
 - Install sshuttle
 - Setup SSH server (22 port)
-
