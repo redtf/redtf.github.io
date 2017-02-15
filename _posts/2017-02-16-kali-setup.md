@@ -5,8 +5,8 @@ published: true
 
 Personal collection of scripts after Kali 2016 installation.
 
-Based on g0tmi1k scripts [GitHub g0tmi1k(https://github.com/g0tmi1k/os-scripts).
-Download [click here](http://red.tf/s/kali_setup.sh)
+Based on g0tmi1k scripts [**GitHub g0tmi1k**)(https://github.com/g0tmi1k/os-scripts).
+Download [**click here**](http://red.tf/s/kali_setup.sh)
 
 Features:
 - Remove folders (Public, Documents, Music, Pictures, Videos, Templates)
