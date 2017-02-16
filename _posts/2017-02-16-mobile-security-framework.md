@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## Mobile Security Framework (MobSF)
 
