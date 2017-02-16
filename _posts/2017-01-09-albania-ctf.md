@@ -1,6 +1,7 @@
 ---
-title: CTF Albania 2016
+title: Albania 2016
 date: 2017-01-09 00:00:00 Z
+category: CTF
 layout: post
 author: redtf
 sitemap: false
