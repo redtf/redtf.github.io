@@ -1,3 +1,6 @@
+#TODO
+# - Add burp suite pro Larry
+
 ##### (Cosmetic) Colour output
 RED="\033[01;31m"      # Issues/Errors
 GREEN="\033[01;32m"    # Success
@@ -38,7 +41,7 @@ grep -q '^deb-src .* kali-rolling' "${file}" 2>/dev/null \
   || echo -e "deb-src http://http.kali.org/kali kali-rolling main contrib non-free" >> "${file}"
 #--- Disable CD repositories
 sed -i '/kali/ s/^\( \|\t\|\)deb cdrom/#deb cdrom/g' "${file}"
-#--- incase we were interrupted
+#--- Incase we were interrupted
 dpkg --configure -a
 #--- Update
 apt -qq update
@@ -49,7 +52,8 @@ if [[ "$?" -ne 0 ]]; then
   curl -sI http://http.kali.org/README
   exit 1
 fi
-
+#--- Set keyboard es,es
+setxkbmap -layout 'es,es' -model 'pc105'
 ##### Update OS from network repositories
 echo -e "\n\n ${GREEN}[+]${RESET}  ${GREEN}Updating OS${RESET} from network repositories"
 echo -e " ${YELLOW}[i]${RESET}  ...this ${BOLD}may take a while${RESET} depending on your Internet connection & Kali version/age"
@@ -73,7 +77,6 @@ if [[ "${_TMP}" -gt 1 ]]; then
   fi
 fi
 
-
 ##### Install kernel headers
 echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}kernel headers${RESET}"
 apt -y -qq install make gcc "linux-headers-$(uname -r)" \
@@ -85,7 +88,6 @@ if [[ $? -ne 0 ]]; then
   #exit 1
   sleep 30s
 fi
-
 
 ##### Install "kali full" meta packages (default tool selection)
 echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}kali-linux-full${RESET} meta-package"
@@ -165,9 +167,14 @@ grep -q '^alias egrep=' "${file}" 2>/dev/null \
   || echo -e 'alias egrep="egrep --color=auto"\n' >> "${file}"
 grep -q '^alias fgrep=' "${file}" 2>/dev/null \
   || echo -e 'alias fgrep="fgrep --color=auto"\n' >> "${file}"
+grep -q '^alias mkdir=' "${file}" 2>/dev/null \
+  || echo -e 'alias mkdir="mkdir -pv"\n' >> "${file}"
 #--- Add in ours (OS programs)
 grep -q '^alias tmux' "${file}" 2>/dev/null \
   || echo -e '## tmux\nalias tmux="tmux attach || tmux new"\n' >> "${file}"    #alias tmux="tmux attach -t $HOST || tmux new -s $HOST"
+grep -q '^alias pyserver=' "${file}" 2>/dev/null \
+  || echo -e 'alias pyserver="python -m SimpleHTTPServer"\n' >> "${file}"
+
 #--- Add in ours (shortcuts)
 grep -q '^## Checksums' "${file}" 2>/dev/null \
   || echo -e '## Checksums\nalias sha1="openssl sha1"\nalias md5="openssl md5"\n' >> "${file}"
@@ -208,6 +215,7 @@ ex() {
   fi
 }
 EOF
+grep -
 #--- Add in tools
 grep -q '^## nmap' "${file}" 2>/dev/null \
   || echo -e '## nmap\nalias nmap="nmap --reason --open --stats-every 3m --max-retries 1 --max-scan-delay 20 --defeat-rst-ratelimit"\n' >> "${file}"
@@ -360,11 +368,6 @@ echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}metasploit${RESET} ~ exploi
 apt -y -qq install metasploit-framework \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 mkdir -p ~/.msf4/modules/{auxiliary,exploits,payloads,post}/
-#--- ASCII art
-#export GOCOW=1   # Always a cow logo ;)   Others: THISISHALLOWEEN (Halloween), APRILFOOLSPONIES (My Little Pony)
-#file=~/.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}
-#([[ -e "${file}" && "$(tail -c 1 ${file})" != "" ]]) && echo >> "${file}"
-#grep -q '^GOCOW' "${file}" 2>/dev/null || echo 'GOCOW=1' >> "${file}"
 #--- Fix any port issues
 file=$(find /etc/postgresql/*/main/ -maxdepth 1 -type f -name postgresql.conf -print -quit);
 [ -e "${file}" ] && cp -n $file{,.bkup}
@@ -476,7 +479,6 @@ echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}httptunnel${RESET} ~ Tunnel
 apt -y -qq install http-tunnel \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 
-
 ##### Install sshuttle
 echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}sshuttle${RESET} ~ VPN over SSH"
 apt -y -qq install sshuttle \
@@ -484,13 +486,34 @@ apt -y -qq install sshuttle \
 #--- Example
 #sshuttle --dns --remote root@123.9.9.9 0/0 -vv
 
+##### Install PEDA
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}PEDA${RESET}"
+git clone https://github.com/longld/peda.git ~/peda
+echo "source ~/peda/peda.py" >> ~/.gdbinit
+
+##### Install dirsearch
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}dirsearch${RESET}"
+git clone https://github.com/maurosoria/dirsearch.git /opt/dirsearch
+
+##### Install CTF-Tools
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}CTF-Tools${RESET}"
+git clone https://github.com/zardus/ctf-tools /opt/ctf-tools
+
+##### Install clusterd
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}clusterd${RESET}"
+git clone https://github.com/hatRiot/clusterd.git /opt/clusterd
+pip install /opt/clusterd/requirements.txt
+
+##### Install jexboss
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}jexboss${RESET}"
+git clone https://github.com/joaomatosf/jexboss /opt/jexboss
+pip install -r /opt/jexboss/requires.txt
 
 ##### Install gcc & multilib
 echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}gcc${RESET} & ${GREEN}multilibc${RESET} ~ compiling libraries"
-for FILE in cc gcc g++ gcc-multilib make automake libc6 libc6-dev libc6-amd64 libc6-dev-amd64 libc6-i386 libc6-dev-i386 libc6-i686 libc6-dev-i686 build-essential dpkg-dev; do
+for FILE in cc gcc g++ gcc-multilib make automake lsibc6 libc6-dev libc6-amd64 libc6-dev-amd64 libc6-i386 libc6-dev-i386 libc6-i686 libc6-dev-i686 build-essential dpkg-dev; do
   apt -y -qq install "${FILE}" 2>/dev/null
 done
-
 
 ##### Install apache2 & php
 echo -e "\n\n ${GREEN}[+]${RESET}  Installing ${GREEN}apache2${RESET} & ${GREEN}php${RESET} ~ web server"
@@ -547,6 +570,9 @@ for FILE in clean autoremove; do apt -y -qq "${FILE}"; done
 apt -y -qq purge $(dpkg -l | tail -n +6 | egrep -v '^(h|i)i' | awk '{print $2}')   # Purged packages
 #--- Update slocate database
 updatedb
+#--- Empty every trashes
+rm -rf /home/*/.local/share/Trash/*/** &> /dev/null
+rm -rf /root/.local/share/Trash/*/** &> /dev/null
 #--- Reset folder location
 cd ~/ &>/dev/null
 #--- Remove any history files (as they could contain sensitive info)
@@ -555,4 +581,6 @@ for i in $(cut -d: -f6 /etc/passwd | sort -u); do
   [ -e "${i}" ] && find "${i}" -type f -name '.*_history' -delete
 done
 
-echo -e"\n\n ${YELLOW}You must reboot the system"
+echo -e "\n\n ${YELLOW}[!]${RESET} Your system will reboot in 5 seconds"
+sleep(5)
+reboot

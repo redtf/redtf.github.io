@@ -23,4 +23,11 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 - Install terminator
 - Install httptunnel
 - Install sshuttle
+- Install PEDA
+- Install dirsearch
+- Install CTF-Tools
+- Install clusterd (pwn JBoss, Coldfusion, WebLogic, Railo, Axi2, Glassgish)
+- Install jexboss (pwn JBoss)
 - Setup SSH server (22 port)
+
+*Update 

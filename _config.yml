@@ -27,3 +27,4 @@ gems:
 - jekyll-paginate
 - jekyll-sitemap
 - jemoji
+- jekyll-last-modified-at
