@@ -30,4 +30,4 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 - Install jexboss (pwn JBoss)
 - Setup SSH server (22 port)
 
-*Update 
+*Last modified at 22-02-2017*
