@@ -149,8 +149,67 @@ gconftool-2 -t bool -s /apps/gnome-terminal/profiles/Default/scrollback_unlimite
 gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_type transparent
 gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_darkness 0.85611499999999996
 
+
+##### Configure GNOME terminal   Note: need to restart xserver for effect
+ echo -e "\n\n ${GREEN}[+]${RESET} Configuring GNOME ${GREEN}terminal${RESET} ~ CLI interface"
+gconftool-2 -t bool -s /apps/gnome-terminal/profiles/Default/scrollback_unlimited true
+gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_type transparent
+gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_darkness 0.85611499999999996
+
+##### Configure bash - all users
+echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}bash${RESET} ~ CLI shell"
+file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
+grep -q "cdspell" "${file}" \
+  || echo "shopt -sq cdspell" >> "${file}"             # Spell check 'cd' commands
+grep -q "autocd" "${file}" \
+ || echo "shopt -s autocd" >> "${file}"                # So you don't have to 'cd' before a folder
+grep -q "checkwinsize" "${file}" \
+ || echo "shopt -sq checkwinsize" >> "${file}"         # Wrap lines correctly after resizing
+grep -q "nocaseglob" "${file}" \
+ || echo "shopt -sq nocaseglob" >> "${file}"           # Case insensitive pathname expansion
+grep -q "HISTSIZE" "${file}" \
+ || echo "HISTSIZE=10000" >> "${file}"                 # Bash history (memory scroll back)
+grep -q "HISTFILESIZE" "${file}" \
+ || echo "HISTFILESIZE=10000" >> "${file}"             # Bash history (file .bash_history)
+#--- Apply new configs
+source "${file}" || source ~/.zshrc
+
+##### Install bash completion - all users
+(( STAGE++ )); echo -e "\n\n ${GREEN}[+]${RESET} (${STAGE}/${TOTAL}) Installing ${GREEN}bash completion${RESET} ~ tab complete CLI commands"
+apt -y -qq install bash-completion \
+  || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
+file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
+sed -i '/# enable bash completion in/,+7{/enable bash completion/!s/^#//}' "${file}"
+#--- Apply new configs
+source "${file}" || source ~/.zshrc
+
+##### Install bash colour - all users
+(( STAGE++ )); echo -e "\n\n ${GREEN}[+]${RESET} (${STAGE}/${TOTAL}) Installing ${GREEN}bash colour${RESET} ~ colours shell output"
+file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
+([[ -e "${file}" && "$(tail -c 1 ${file})" != "" ]]) && echo >> "${file}"
+sed -i 's/.*force_color_prompt=.*/force_color_prompt=yes/' "${file}"
+grep -q '^force_color_prompt' "${file}" 2>/dev/null \
+  || echo 'force_color_prompt=yes' >> "${file}"
+sed -i 's#PS1='"'"'.*'"'"'#PS1='"'"'${debian_chroot:+($debian_chroot)}\\[\\033\[01;31m\\]\\u@\\h\\\[\\033\[00m\\]:\\[\\033\[01;34m\\]\\w\\[\\033\[00m\\]\\$ '"'"'#' "${file}"
+grep -q "^export LS_OPTIONS='--color=auto'" "${file}" 2>/dev/null \
+  || echo "export LS_OPTIONS='--color=auto'" >> "${file}"
+grep -q '^eval "$(dircolors)"' "${file}" 2>/dev/null \
+  || echo 'eval "$(dircolors)"' >> "${file}"
+grep -q "^alias ls='ls $LS_OPTIONS'" "${file}" 2>/dev/null \
+  || echo "alias ls='ls $LS_OPTIONS'" >> "${file}"
+grep -q "^alias ll='ls $LS_OPTIONS -l'" "${file}" 2>/dev/null \
+  || echo "alias ll='ls $LS_OPTIONS -l'" >> "${file}"
+grep -q "^alias l='ls $LS_OPTIONS -lA'" "${file}" 2>/dev/null \
+  || echo "alias l='ls $LS_OPTIONS -lA'" >> "${file}"
+#--- All other users that are made afterwards
+file=/etc/skel/.bashrc   #; [ -e "${file}" ] && cp -n $file{,.bkup}
+sed -i 's/.*force_color_prompt=.*/force_color_prompt=yes/' "${file}"
+#--- Apply new configs
+source "${file}" || source ~/.zshrc
+
+
 #### Configure aliases - root user
-(( STAGE++ )); echo -e "\n\n ${GREEN}[+]${RESET} (${STAGE}/${TOTAL}) Configuring ${GREEN}aliases${RESET} ~ CLI shortcuts"
+echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}aliases${RESET} ~ CLI shortcuts"
 #--- Enable defaults - root user
 for FILE in /etc/bash.bashrc ~/.bashrc ~/.bash_aliases; do    #/etc/profile /etc/bashrc /etc/bash_aliases /etc/bash.bash_aliases
   [[ ! -f "${FILE}" ]] \
@@ -296,7 +355,22 @@ grep -q '^set invnumber' "${file}" 2>/dev/null \
 grep -q '^set pastetoggle=<F9>' "${file}" 2>/dev/null \
   || echo -e 'set pastetoggle=<F9>' >> "${file}"                                                         # Hotkey - turning off auto indent when pasting
 grep -q '^:command Q q' "${file}" 2>/dev/null \
-  || echo -e ':command Q q' >> "${file}"                                                                 # Fix stupid typo I always make
+  || echo -e ':command Q q' >> "${file}"     
+
+##### Install git - all users
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}git${RESET} ~ revision control"
+apt -y -qq install git \
+  || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
+#--- Set as default editor
+git config --global core.editor "vim"
+#--- Set as default mergetool
+git config --global merge.tool vimdiff
+git config --global merge.conflictstyle diff3
+git config --global mergetool.prompt false
+#--- Set as default push
+git config --global push.default simple
+
+#Fix stupid typo I always make
 #--- Set as default editor
 export EDITOR="vim"   #update-alternatives --config editor
 file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}
@@ -310,7 +384,7 @@ git config --global merge.conflictstyle diff3
 git config --global mergetool.prompt false
 
 ##### Setup firefox
-(( STAGE++ )); echo -e "\n\n ${GREEN}[+]${RESET} (${STAGE}/${TOTAL}) Installing ${GREEN}firefox${RESET} ~ GUI web browser"
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}firefox${RESET} ~ GUI web browser"
 apt -y -qq install unzip curl firefox-esr \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 #--- Configure firefox
@@ -456,11 +530,45 @@ msfvenom --list payloads > ~/.msf4/msfvenom/payloads
 msfvenom --list encoders > ~/.msf4/msfvenom/encoders
 msfvenom --help-formats 2> ~/.msf4/msfvenom/formats
 #--- First time run with Metasploit
-(( STAGE++ )); echo -e " ${GREEN}[i]${RESET}  ${GREEN}Starting Metasploit for the first time${RESET} ~ this ${BOLD}will take a ~350 seconds${RESET} (~6 mintues)"
+echo -e " ${GREEN}[i]${RESET}  ${GREEN}Starting Metasploit for the first time${RESET} ~ this ${BOLD}will take a ~350 seconds${RESET} (~6 mintues)"
 echo "Started at: $(date)"
 systemctl start postgresql
 msfdb start
 msfconsole -q -x 'version;db_status;sleep 310;exit'
+
+##### Configure python console - all users
+echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}python console${RESET} ~ tab complete & history support"
+export PYTHONSTARTUP=$HOME/.pythonstartup
+file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
+grep -q PYTHONSTARTUP "${file}" \
+  || echo 'export PYTHONSTARTUP=$HOME/.pythonstartup' >> "${file}"
+#--- Python start up file
+cat <<EOF > ~/.pythonstartup \
+  || echo -e ' '${RED}'[!] Issue with writing file'${RESET} 1>&2
+import readline
+import rlcompleter
+import atexit
+import os
+## Tab completion
+readline.parse_and_bind('tab: complete')
+## History file
+histfile = os.path.join(os.environ['HOME'], '.pythonhistory')
+try:
+    readline.read_history_file(histfile)
+except IOError:
+    pass
+atexit.register(readline.write_history_file, histfile)
+## Quit
+del os, histfile, readline, rlcompleter
+EOF
+#--- Apply new configs
+source "${file}" || source ~/.zshrc
+
+
+##### Install virtualenvwrapper
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}virtualenvwrapper${RESET} ~ virtual environment wrapper"
+apt -y -qq install virtualenvwrapper \
+|| echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 
 ##### Install vulscan script for nmap
 echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}vulscan script for nmap${RESET} ~ vulnerability scanner add-on"
@@ -581,6 +689,5 @@ for i in $(cut -d: -f6 /etc/passwd | sort -u); do
   [ -e "${i}" ] && find "${i}" -type f -name '.*_history' -delete
 done
 
-echo -e "\n\n ${YELLOW}[!]${RESET} Your system will reboot in 5 seconds"
-sleep(5)
+echo -e "\n\n ${GREEN}[+]${RESET} Your system will ${YELLOW}reboot${RESET} now!"
 reboot
