@@ -9,14 +9,30 @@ BLUE="\033[01;34m"     # Heading
 BOLD="\033[01;01m"     # Highlight
 RESET="\033[00m"       # Normal
 
+BANNER="   
+    __________           .___          
+    \______   \ ____   __| _/          
+     |       _// __ \ / __ |           
+     |    |   \  ___// /_/ |           
+     |____|_  /\___  >____ |           
+            \/     \/     \/           
+    ___________                        
+    \__    ___/___ _____    _____      
+      |    |_/ __ \\__  \  /     \     
+      |    |\  ___/ / __ \|  Y Y  \    
+      |____| \___  >____  /__|_|  /    
+                 \/     \/      \/     
+    ___________.__       .__       .___
+    \_   _____/|__| ____ |  |    __| _/
+     |    __)  |  |/ __ \|  |   / __ | 
+     |     \   |  \  ___/|  |__/ /_/ | 
+     \___  /   |__|\___  >____/\____ | 
+         \/            \/           \/ 
+        "
+echo $BANNER
 #--- Remove this folders
 echo -e "\n\n ${GREEN}[+]${RESET} Removing dummy folders"
-rm -r /root/Public
-rm -r /root/Documents
-rm -r /root/Music
-rm -r /root/Pictures
-rm -r /root/Videos
-rm -r /root/Templates
+rm -r /root/Public /root/Documents /root/Music /root/Pictures /root/Videos /root/Templates 2>/dev/null
 
 #--- Disable auto notification
 echo -e "\n\n ${GREEN}[+]${RESET} Disable its auto notification package update"
@@ -119,9 +135,6 @@ if [[ $(which gnome-shell) ]]; then
    echo -e "\n\n ${GREEN}[+]${RESET}  Configuring ${GREEN}GNOME 3${RESET} ~ desktop environment"
   export DISPLAY=:0.0
   #-- Gnome Extension - Dash Dock (the toolbar with all the icons)
-  gsettings set org.gnome.shell.extensions.dash-to-dock extend-height true      # Set dock to use the full height
-  gsettings set org.gnome.shell.extensions.dash-to-dock dock-position 'RIGHT'   # Set dock to the right
-  gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed true         # Set dock to be always visible
   gsettings set org.gnome.shell favorite-apps \
     "['gnome-terminal.desktop', 'org.gnome.Nautilus.desktop', 'kali-wireshark.desktop', 'firefox-esr.desktop', 'kali-burpsuite.desktop', 'kali-msfconsole.desktop', 'gedit.desktop']"
   #-- Gnome Extension - Alternate-tab (So it doesn't group the same windows up)
@@ -175,7 +188,7 @@ grep -q "HISTFILESIZE" "${file}" \
 source "${file}" || source ~/.zshrc
 
 ##### Install bash completion - all users
-(( STAGE++ )); echo -e "\n\n ${GREEN}[+]${RESET} (${STAGE}/${TOTAL}) Installing ${GREEN}bash completion${RESET} ~ tab complete CLI commands"
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}bash completion${RESET} ~ tab complete CLI commands"
 apt -y -qq install bash-completion \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
@@ -184,7 +197,7 @@ sed -i '/# enable bash completion in/,+7{/enable bash completion/!s/^#//}' "${fi
 source "${file}" || source ~/.zshrc
 
 ##### Install bash colour - all users
-(( STAGE++ )); echo -e "\n\n ${GREEN}[+]${RESET} (${STAGE}/${TOTAL}) Installing ${GREEN}bash colour${RESET} ~ colours shell output"
+echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}bash colour${RESET} ~ colours shell output"
 file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
 ([[ -e "${file}" && "$(tail -c 1 ${file})" != "" ]]) && echo >> "${file}"
 sed -i 's/.*force_color_prompt=.*/force_color_prompt=yes/' "${file}"
@@ -274,7 +287,7 @@ ex() {
   fi
 }
 EOF
-grep -
+
 #--- Add in tools
 grep -q '^## nmap' "${file}" 2>/dev/null \
   || echo -e '## nmap\nalias nmap="nmap --reason --open --stats-every 3m --max-retries 1 --max-scan-delay 20 --defeat-rst-ratelimit"\n' >> "${file}"
