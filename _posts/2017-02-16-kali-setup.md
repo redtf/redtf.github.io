@@ -26,8 +26,8 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 - Install PEDA
 - Install dirsearch
 - Install CTF-Tools
-- Install clusterd (pwn JBoss, Coldfusion, WebLogic, Railo, Axi2, Glassgish)
+- Install clusterd (pwn JBoss, Coldfusion...)
 - Install jexboss (pwn JBoss)
-- Setup SSH server (22 port)
+- Setup SSH server
 
 *Last modified at 22-02-2017*
