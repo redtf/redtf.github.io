@@ -3,7 +3,6 @@ published: true
 title: Kali Script
 category: Script
 layout: post
-author: redtf
 ---
 ## Kali Script 
 
@@ -26,6 +25,8 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 - Install PEDA
 - Install dirsearch
 - Install CTF-Tools
+- Install pwn-tools
+- Install ltrace
 - Install clusterd (pwn JBoss, Coldfusion...)
 - Install jexboss (pwn JBoss)
 - Setup SSH server
