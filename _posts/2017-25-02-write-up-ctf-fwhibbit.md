@@ -4,7 +4,7 @@ category: CTF
 layout: post
 ---
 
-# Write-Up CTF FWHIBBIT [ES]
+# Write-UP CTF FWHIBBIT [ES]
 
 ## Morocco
 **Title:** How Many Rabbits
