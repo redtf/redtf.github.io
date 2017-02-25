@@ -15,9 +15,9 @@ layout: post
 
 **Points:** 200
 
-**Link:** https://mega.nz/#!N4dDVSYY!mcH-FyRD9cwCuL8i3OFy_1zrA55djoLk9s2Qd7-hPuo
+**Link:** [Click here](https://mega.nz/#!N4dDVSYY!mcH-FyRD9cwCuL8i3OFy_1zrA55djoLk9s2Qd7-hPuo)
 
-Tras descargar el archivo ejecutamos file para ver de que se trata
+Tras descargar el archivo ejecutamos file para ver de que se trata.
 ```
 root@kali:~/Desktop# file rabbits 
 rabbits: ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=9f975d2c714ce40845978b0c6755fecb08f05c22, stripped
@@ -52,7 +52,7 @@ root@kali:~/Desktop# ./rabbits
  Not enough rabbits :( 
 ```
 
-Parece que tenemos que saber cuantos conejos necesitamos, así que seguramente estemos frente ante un strcmp que comprueba el input con un string hard-code. Vamos a ejecutar con el comando ltrace para debuggerarlo de forma rápida.
+Parece que tenemos que saber cuantos conejos necesitamos, así que seguramente estemos frente ante un strcmp que comprueba el input con un string hard-code. Vamos a ejecutarlo con el comando ltrace para debuggerarlo de forma rápida.
 
 ```
 root@kali:~/Desktop# ltrace /root/Desktop/rabbits
@@ -67,7 +67,7 @@ _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_(0x55bce58491a0, 0x7f6
 
 ```
 
-Efectivamente, "one" es nuestro input y "twenty_two" es el string esperado
+Efectivamente, "one" es nuestro input y "twenty_two" es el string esperado.
 
 ```
 root@kali:~/Desktop# ./rabbits
@@ -105,9 +105,9 @@ fwhibbit{Tw3nty_tw0_r4bb1t5_ar3_en0ugh}
 
 **Points:** 150
 
-**Link:** https://mega.nz/#!HpYxUIIZ!TjDhMDCvazuay1Cats4zObHuRmixGhVa7Sy0-5hnLTg
+**Link:** [Click here](https://mega.nz/#!HpYxUIIZ!TjDhMDCvazuay1Cats4zObHuRmixGhVa7Sy0-5hnLTg)
 
-Tras descargar el archivo ejecutamos file para ver de que se trata
+Tras descargar el archivo ejecutamos file para de que tipo es.
 ```
 root@kali:~/Desktop# file fwhibbit 
 fwhibbit: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=bd3ef4bb0664dc621aefcbda1f311aee8a832a9e, not stripped
@@ -138,7 +138,7 @@ password
 You Failed
 ```
 
-Al igual que en el reto anterior, estamos en la misma causistica, un posible strcmp que compara el input con la password valida, así que, mismo procedimiento usamos ltrace para debuggearlo de forma rápida.
+Al igual que en el reto anterior, estamos en la misma causistica, un posible strcmp que compara el input con la password valida, por lo tanto, mismo procedimiento usamos ltrace.
 
 ```
 puts("Fwhibbit Control Access"Fwhibbit Control Access) = 24
@@ -187,15 +187,15 @@ But now...we already make a choice. Try to give the red pill to the rabbits.
 
 **Points:** 125
 
-**Link:** https://mega.nz/#!NlMlkB6I!ypUjeh2I27f9U5cTu1r_XJBROOV-BQJriRvXeKn_xuk
+**Link:** [Click here](https://mega.nz/#!NlMlkB6I!ypUjeh2I27f9U5cTu1r_XJBROOV-BQJriRvXeKn_xuk)
 
-Tras descargar el archivo ejecutamos file para ver de que se trata
+Ejecutamos file para ver cual es el tipo de archivo.
 ```
 root@kali:~/Desktop# file fwhibbit 
 fwhibbit: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=bd3ef4bb0664dc621aefcbda1f311aee8a832a9e, not stripped
 ```
 
-Ejecutamos el binario
+Ejecutamos el binario.
 
 ````
 root@kali:~/Desktop# ./redpill PILL
@@ -227,7 +227,7 @@ root@kali:~/Desktop# ./redpill PILL
   Blue Pill
 ```
 
-En esta caso estamos antes un buffer overflow en el argumento de entrada
+En esta caso estamos antes un buffer overflow en el argumento de entrada.
 
 ```
 root@kali:~/Desktop# ./redpill $(python -c "print 'A'*100")
@@ -335,12 +335,12 @@ Our friend BugsBunny was performing reconnaissance tasks when suddently found a 
 
 **Points:** 500
 
-**Link:** http://web6.ctf.followthewhiterabbit.es:8006/
+**Link:** [Click here](http://web6.ctf.followthewhiterabbit.es:8006/)
 
 
-Esta prueba estaba pensada para evadir ciertas funciones de php que permiten ejecutar comandos en el sistema o permitan leer un archivo.
+Esta prueba estaba pensada para evadir ciertas funciones de php que permiten ejecutar comandos en el sistema o leer archivos.
 
-En el momento en el que se resolvio este reto estaban deshabilitadas las siguientes funciones
+En el momento en el que se resuelto este reto estaban deshabilitadas las siguientes funciones.
 
 ```
 [0] => show_source
@@ -369,9 +369,9 @@ En el momento en el que se resolvio este reto estaban deshabilitadas las siguien
 [23] => parse_ini_file
 ```
 
-Despues de varias pruebas, me encontre con la funcion [stream_wrapper_restore('protocol')](https://secure.php.net/manual/es/function.stream-wrapper-restore.php), la cual permite restaurar a valores por defecto el wrapper del protocolo indicado.
+Despues de varias pruebas, encontre la funcion [stream_wrapper_restore('protocol')](https://secure.php.net/manual/es/function.stream-wrapper-restore.php), la cual permite restaurar a valores por defecto el wrapper del protocolo indicado.
 
-Así que restauramos el protocolo 'file', y leemos el contenido del archivo /tmp/flag.php
+Así que, restauramos el protocolo 'file' y leemos el contenido del archivo /tmp/flag.php
 
 ```
 Input:
