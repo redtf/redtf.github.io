@@ -9,43 +9,31 @@ BLUE="\033[01;34m"     # Heading
 BOLD="\033[01;01m"     # Highlight
 RESET="\033[00m"       # Normal
 
-BANNER="   
-    __________           .___          
-    \______   \ ____   __| _/          
-     |       _// __ \ / __ |           
-     |    |   \  ___// /_/ |           
-     |____|_  /\___  >____ |           
-            \/     \/     \/           
-    ___________                        
-    \__    ___/___ _____    _____      
-      |    |_/ __ \\__  \  /     \     
-      |    |\  ___/ / __ \|  Y Y  \    
-      |____| \___  >____  /__|_|  /    
-                 \/     \/      \/     
-    ___________.__       .__       .___
-    \_   _____/|__| ____ |  |    __| _/
-     |    __)  |  |/ __ \|  |   / __ | 
-     |     \   |  \  ___/|  |__/ /_/ | 
-     \___  /   |__|\___  >____/\____ | 
-         \/            \/           \/ 
-        "
-echo $BANNER
+BANNER="\n${BOLD}[!] ${RED}[Red]${RESET} ${RED}[T]${RESET}${BOLD}eam ${RED}[F]${RESET}${BOLD}ield [!]${RESET}"
+for i in {1..5}
+do
+  echo -e $BANNER
+done
+echo -e "\n${YELLOW}[!]${RESET} The installation will start in 5 seconds"
+
+sleep 5
+
 #--- Remove this folders
-echo -e "\n\n ${GREEN}[+]${RESET} Removing dummy folders"
+echo -e "\n${GREEN}[+]${RESET} Removing dummy folders"
 rm -r /root/Public /root/Documents /root/Music /root/Pictures /root/Videos /root/Templates 2>/dev/null
 
 #--- Disable auto notification
-echo -e "\n\n ${GREEN}[+]${RESET} Disable its auto notification package update"
+echo -e "\n${GREEN}[+]${RESET} Disable its auto notification package update"
 export DISPLAY=:0.0
 timeout 5 killall -w /usr/lib/apt/methods/http > /dev/null 2>&1
 
 #--- Disable screensaver
-echo -e "\n\n ${GREEN}[+]${RESET} Disable screensaver"
+echo -e "\n${GREEN}[+]${RESET} Disable screensaver"
 xset s 0 0
 xset s off
 gsettings set org.gnome.desktop.session idle-delay 0
 
-echo -e "\n\n ${GREEN}[+]${RESET} Enable default network repositories"
+echo -e "\n${GREEN}[+]${RESET} Enable default network repositories"
 #--- Add network repositories
 file=/etc/apt/sources.list; [ -e "${file}" ] && cp -n $file{,.bkup}
 ([[ -e "${file}" && "$(tail -c 1 ${file})" != "" ]]) && echo >> "${file}"
@@ -71,7 +59,7 @@ fi
 #--- Set keyboard es,es
 setxkbmap -layout 'es,es' -model 'pc105'
 ##### Update OS from network repositories
-echo -e "\n\n ${GREEN}[+]${RESET}  ${GREEN}Updating OS${RESET} from network repositories"
+echo -e "\n${GREEN}[+]${RESET}  ${GREEN}Updating OS${RESET} from network repositories"
 echo -e " ${YELLOW}[i]${RESET}  ...this ${BOLD}may take a while${RESET} depending on your Internet connection & Kali version/age"
 for FILE in clean autoremove; do apt -y -qq "${FILE}"; done         # Clean up      clean remove autoremove autoclean
 export DEBIAN_FRONTEND=noninteractive
@@ -94,7 +82,7 @@ if [[ "${_TMP}" -gt 1 ]]; then
 fi
 
 ##### Install kernel headers
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}kernel headers${RESET}"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}kernel headers${RESET}"
 apt -y -qq install make gcc "linux-headers-$(uname -r)" \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 if [[ $? -ne 0 ]]; then
@@ -106,14 +94,14 @@ if [[ $? -ne 0 ]]; then
 fi
 
 ##### Install "kali full" meta packages (default tool selection)
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}kali-linux-full${RESET} meta-package"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}kali-linux-full${RESET} meta-package"
 echo -e " ${YELLOW}[i]${RESET}  ...this ${BOLD}may take a while${RESET} depending on your Kali version (e.g. ARM, light, mini or docker...)"
 #--- Kali's default tools ~ https://www.kali.org/news/kali-linux-metapackages/
 apt -y -qq install kali-linux-full \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 
 ##### Configure GRUB
-echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}GRUB${RESET} ~ boot manager"
+echo -e "\n${GREEN}[+]${RESET} Configuring ${GREEN}GRUB${RESET} ~ boot manager"
 grubTimeout=5
 (dmidecode | grep -iq virtual) && grubTimeout=1   # Much less if we are in a VM
 file=/etc/default/grub; [ -e "${file}" ] && cp -n $file{,.bkup}
@@ -123,7 +111,7 @@ update-grub
 
 if [[ $(dmidecode | grep -i virtual) ]]; then
   ###### Configure login screen
-  echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}login screen${RESET}"
+  echo -e "\n${GREEN}[+]${RESET} Configuring ${GREEN}login screen${RESET}"
   #--- Enable auto (gui) login
   file=/etc/gdm3/daemon.conf; [ -e "${file}" ] && cp -n $file{,.bkup}
   sed -i 's/^.*AutomaticLoginEnable = .*/AutomaticLoginEnable = true/' "${file}"
@@ -132,7 +120,7 @@ fi
 
 if [[ $(which gnome-shell) ]]; then
   ##### Configure GNOME 3
-   echo -e "\n\n ${GREEN}[+]${RESET}  Configuring ${GREEN}GNOME 3${RESET} ~ desktop environment"
+   echo -e "\n${GREEN}[+]${RESET}  Configuring ${GREEN}GNOME 3${RESET} ~ desktop environment"
   export DISPLAY=:0.0
   #-- Gnome Extension - Dash Dock (the toolbar with all the icons)
   gsettings set org.gnome.shell favorite-apps \
@@ -157,20 +145,20 @@ else
 fi
 
 ##### Configure GNOME terminal   Note: need to restart xserver for effect
-echo -e "\n\n ${GREEN}[+]${RESET} Configuring GNOME ${GREEN}terminal${RESET} ~ CLI interface"
+echo -e "\n${GREEN}[+]${RESET} Configuring GNOME ${GREEN}terminal${RESET} ~ CLI interface"
 gconftool-2 -t bool -s /apps/gnome-terminal/profiles/Default/scrollback_unlimited true
 gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_type transparent
 gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_darkness 0.85611499999999996
 
 
 ##### Configure GNOME terminal   Note: need to restart xserver for effect
- echo -e "\n\n ${GREEN}[+]${RESET} Configuring GNOME ${GREEN}terminal${RESET} ~ CLI interface"
+ echo -e "\n${GREEN}[+]${RESET} Configuring GNOME ${GREEN}terminal${RESET} ~ CLI interface"
 gconftool-2 -t bool -s /apps/gnome-terminal/profiles/Default/scrollback_unlimited true
 gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_type transparent
 gconftool-2 -t string -s /apps/gnome-terminal/profiles/Default/background_darkness 0.85611499999999996
 
 ##### Configure bash - all users
-echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}bash${RESET} ~ CLI shell"
+echo -e "\n${GREEN}[+]${RESET} Configuring ${GREEN}bash${RESET} ~ CLI shell"
 file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
 grep -q "cdspell" "${file}" \
   || echo "shopt -sq cdspell" >> "${file}"             # Spell check 'cd' commands
@@ -188,7 +176,7 @@ grep -q "HISTFILESIZE" "${file}" \
 source "${file}" || source ~/.zshrc
 
 ##### Install bash completion - all users
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}bash completion${RESET} ~ tab complete CLI commands"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}bash completion${RESET} ~ tab complete CLI commands"
 apt -y -qq install bash-completion \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
@@ -197,7 +185,7 @@ sed -i '/# enable bash completion in/,+7{/enable bash completion/!s/^#//}' "${fi
 source "${file}" || source ~/.zshrc
 
 ##### Install bash colour - all users
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}bash colour${RESET} ~ colours shell output"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}bash colour${RESET} ~ colours shell output"
 file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
 ([[ -e "${file}" && "$(tail -c 1 ${file})" != "" ]]) && echo >> "${file}"
 sed -i 's/.*force_color_prompt=.*/force_color_prompt=yes/' "${file}"
@@ -222,7 +210,7 @@ source "${file}" || source ~/.zshrc
 
 
 #### Configure aliases - root user
-echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}aliases${RESET} ~ CLI shortcuts"
+echo -e "\n${GREEN}[+]${RESET} Configuring ${GREEN}aliases${RESET} ~ CLI shortcuts"
 #--- Enable defaults - root user
 for FILE in /etc/bash.bashrc ~/.bashrc ~/.bash_aliases; do    #/etc/profile /etc/bashrc /etc/bash_aliases /etc/bash.bash_aliases
   [[ ! -f "${FILE}" ]] \
@@ -298,7 +286,7 @@ grep -q '^## metasploit' "${file}" 2>/dev/null \
 source "${file}"
 
 ##### Install (GNOME) Terminator
-echo -e "\n\n ${GREEN}[+]${RESET} Installing (GNOME) ${GREEN}Terminator${RESET} ~ multiple terminals in a single window"
+echo -e "\n${GREEN}[+]${RESET} Installing (GNOME) ${GREEN}Terminator${RESET} ~ multiple terminals in a single window"
 apt -y -qq install terminator \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 #--- Configure terminator
@@ -329,7 +317,7 @@ cat <<EOF > "${file}" \
 EOF
 
 #### Install vim - all users
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}vim${RESET} ~ CLI text editor"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}vim${RESET} ~ CLI text editor"
 apt -y -qq install vim \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 #--- Configure vim
@@ -371,7 +359,7 @@ grep -q '^:command Q q' "${file}" 2>/dev/null \
   || echo -e ':command Q q' >> "${file}"     
 
 ##### Install git - all users
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}git${RESET} ~ revision control"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}git${RESET} ~ revision control"
 apt -y -qq install git \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 #--- Set as default editor
@@ -397,7 +385,7 @@ git config --global merge.conflictstyle diff3
 git config --global mergetool.prompt false
 
 ##### Setup firefox
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}firefox${RESET} ~ GUI web browser"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}firefox${RESET} ~ GUI web browser"
 apt -y -qq install unzip curl firefox-esr \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 #--- Configure firefox
@@ -451,7 +439,7 @@ find ~/.mozilla/firefox/*.default*/ -maxdepth 1 -mindepth 1 -type f -name "place
 find ~/.mozilla/firefox/*.default*/bookmarkbackups/ -type f -delete
 
 ##### Install metasploit ~ http://docs.kali.org/general-use/starting-metasploit-framework-in-kali
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}metasploit${RESET} ~ exploit framework"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}metasploit${RESET} ~ exploit framework"
 apt -y -qq install metasploit-framework \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 mkdir -p ~/.msf4/modules/{auxiliary,exploits,payloads,post}/
@@ -550,7 +538,7 @@ msfdb start
 msfconsole -q -x 'version;db_status;sleep 310;exit'
 
 ##### Configure python console - all users
-echo -e "\n\n ${GREEN}[+]${RESET} Configuring ${GREEN}python console${RESET} ~ tab complete & history support"
+echo -e "\n${GREEN}[+]${RESET} Configuring ${GREEN}python console${RESET} ~ tab complete & history support"
 export PYTHONSTARTUP=$HOME/.pythonstartup
 file=/etc/bash.bashrc; [ -e "${file}" ] && cp -n $file{,.bkup}   #~/.bashrc
 grep -q PYTHONSTARTUP "${file}" \
@@ -579,12 +567,12 @@ source "${file}" || source ~/.zshrc
 
 
 ##### Install virtualenvwrapper
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}virtualenvwrapper${RESET} ~ virtual environment wrapper"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}virtualenvwrapper${RESET} ~ virtual environment wrapper"
 apt -y -qq install virtualenvwrapper \
 || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 
 ##### Install vulscan script for nmap
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}vulscan script for nmap${RESET} ~ vulnerability scanner add-on"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}vulscan script for nmap${RESET} ~ vulnerability scanner add-on"
 apt -y -qq install nmap curl \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 mkdir -p /usr/share/nmap/scripts/vulscan/
@@ -596,48 +584,59 @@ tar -xf /tmp/nmap_nse_vulscan.tar -C /usr/share/nmap/scripts/
 chmod -R 0755 /usr/share/nmap/scripts/; find /usr/share/nmap/scripts/ -type f -exec chmod 0644 {} \;
 
 ##### Install httptunnel
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}httptunnel${RESET} ~ Tunnels data streams in HTTP requests"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}httptunnel${RESET} ~ Tunnels data streams in HTTP requests"
 apt -y -qq install http-tunnel \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 
 ##### Install sshuttle
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}sshuttle${RESET} ~ VPN over SSH"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}sshuttle${RESET} ~ VPN over SSH"
 apt -y -qq install sshuttle \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 #--- Example
 #sshuttle --dns --remote root@123.9.9.9 0/0 -vv
 
+##### Install ltrace
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}ltrace${RESET} ~ Linux debugging tool"
+apt -y -qq install ltrace \
+  || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
+
 ##### Install PEDA
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}PEDA${RESET}"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}PEDA${RESET}"
 git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 
 ##### Install dirsearch
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}dirsearch${RESET}"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}dirsearch${RESET}"
 git clone https://github.com/maurosoria/dirsearch.git /opt/dirsearch
 
 ##### Install CTF-Tools
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}CTF-Tools${RESET}"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}CTF-Tools${RESET}"
 git clone https://github.com/zardus/ctf-tools /opt/ctf-tools
 
+#### Instal pwntools
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}pwn-tools${RESET}"
+apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
+pip install --upgrade pip
+pip install --upgrade pwntools
+
 ##### Install clusterd
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}clusterd${RESET}"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}clusterd${RESET}"
 git clone https://github.com/hatRiot/clusterd.git /opt/clusterd
 pip install /opt/clusterd/requirements.txt
 
 ##### Install jexboss
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}jexboss${RESET}"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}jexboss${RESET}"
 git clone https://github.com/joaomatosf/jexboss /opt/jexboss
 pip install -r /opt/jexboss/requires.txt
 
 ##### Install gcc & multilib
-echo -e "\n\n ${GREEN}[+]${RESET} Installing ${GREEN}gcc${RESET} & ${GREEN}multilibc${RESET} ~ compiling libraries"
-for FILE in cc gcc g++ gcc-multilib make automake lsibc6 libc6-dev libc6-amd64 libc6-dev-amd64 libc6-i386 libc6-dev-i386 libc6-i686 libc6-dev-i686 build-essential dpkg-dev; do
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}gcc${RESET} & ${GREEN}multilibc${RESET} ~ compiling libraries"
+for FILE in cc gcc g++ gcc-multilib make automake lsibc6 libc6-dev libc6-amd64 libc6-dev-amd64 libc6-i386 libc6-dev-i386 libc6-i686 libc6-dev-i686 dpkg-dev; do
   apt -y -qq install "${FILE}" 2>/dev/null
 done
 
 ##### Install apache2 & php
-echo -e "\n\n ${GREEN}[+]${RESET}  Installing ${GREEN}apache2${RESET} & ${GREEN}php${RESET} ~ web server"
+echo -e "\n${GREEN}[+]${RESET}  Installing ${GREEN}apache2${RESET} & ${GREEN}php${RESET} ~ web server"
 apt -y -qq install apache2 php php-cli php-curl \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 touch /var/www/html/favicon.ico
@@ -654,7 +653,7 @@ grep -q '^## www' "${file}" 2>/dev/null \
 source "${file}"
 
 ##### Setup SSH
-echo -e "\n\n ${GREEN}[+]${RESET} Setting up ${GREEN}SSH${RESET} ~ CLI access"
+echo -e "\n${GREEN}[+]${RESET} Setting up ${GREEN}SSH${RESET} ~ CLI access"
 apt -y -qq install openssh-server \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 #--- Wipe current keys
@@ -685,7 +684,7 @@ grep -q '^## ssh' "${file}" 2>/dev/null \
 source "${file}"
 
 #### Clean the system
-echo -e "\n\n ${GREEN}[+]${RESET} ${GREEN}Cleaning${RESET} the system"
+echo -e "\n${GREEN}[+]${RESET} ${GREEN}Cleaning${RESET} the system"
 #--- Clean package manager
 for FILE in clean autoremove; do apt -y -qq "${FILE}"; done
 apt -y -qq purge $(dpkg -l | tail -n +6 | egrep -v '^(h|i)i' | awk '{print $2}')   # Purged packages
@@ -702,5 +701,5 @@ for i in $(cut -d: -f6 /etc/passwd | sort -u); do
   [ -e "${i}" ] && find "${i}" -type f -name '.*_history' -delete
 done
 
-echo -e "\n\n ${GREEN}[+]${RESET} Your system will ${YELLOW}reboot${RESET} now!"
+echo -e "\n${GREEN}[+]${RESET} Your system will ${YELLOW}reboot${RESET} now!"
 reboot
