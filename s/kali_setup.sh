@@ -109,15 +109,6 @@ sed -i 's/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT='${grubTimeout}'/' "${file}"            
 sed -i 's/^GRUB_CMDLINE_LINUX_DEFAULT=.*/GRUB_CMDLINE_LINUX_DEFAULT="vga=0x0318"/' "${file}"   # TTY resolution
 update-grub
 
-if [[ $(dmidecode | grep -i virtual) ]]; then
-  ###### Configure login screen
-  echo -e "\n${GREEN}[+]${RESET} Configuring ${GREEN}login screen${RESET}"
-  #--- Enable auto (gui) login
-  file=/etc/gdm3/daemon.conf; [ -e "${file}" ] && cp -n $file{,.bkup}
-  sed -i 's/^.*AutomaticLoginEnable = .*/AutomaticLoginEnable = true/' "${file}"
-  sed -i 's/^.*AutomaticLogin = .*/AutomaticLogin = root/' "${file}"
-fi
-
 if [[ $(which gnome-shell) ]]; then
   ##### Configure GNOME 3
    echo -e "\n${GREEN}[+]${RESET}  Configuring ${GREEN}GNOME 3${RESET} ~ desktop environment"
@@ -432,6 +423,8 @@ sed -i 's#^</DL><p>#    <DT><A HREF="http://shell-storm.org/shellcode/">Shelcode
 sed -i 's#^</DL><p>#    <DT><A HREF="http://ropshell.com/">ROP Shell</A>\n</DL><p>#' "${file}"                    # Add ROP Shell to bookmark toolbar
 sed -i 's#^</DL><p>#    <DT><A HREF="https://ifconfig.io/">ifconfig</A>\n</DL><p>#' "${file}"                     # Add ifconfig.io to bookmark toolbar
 sed -i 's#^</DL><p>#    <DT><A HREF="https://pentestmonkey.net/">PentestMonkey</A>\n</DL><p>#' "${file}"          # Add PentestMonkey to bookmark $
+sed -i 's#^</DL><p>#    <DT><A HREF="https://howucan.gr/">Howucan</A>\n</DL><p>#' "${file}"          # Add howucan.gr
+sed -i 's#^</DL><p>#    <DT><A HREF="https://crt.sh/">crt.sh</A>\n</DL><p>#' "${file}"          # Add crt.sh
 
 sed -i 's#<HR>#<DT><H3 ADD_DATE="1303667175" LAST_MODIFIED="1303667175" PERSONAL_TOOLBAR_FOLDER="true">Bookmarks Toolbar</H3>\n<DD>Add bookmarks to this folder to see them displayed on the Bookmarks Toolbar#' "${file}"
 #--- Clear bookmark cache
@@ -595,10 +588,7 @@ apt -y -qq install sshuttle \
 #--- Example
 #sshuttle --dns --remote root@123.9.9.9 0/0 -vv
 
-##### Install ltrace
-echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}ltrace${RESET} ~ Linux debugging tool"
-apt -y -qq install ltrace \
-  || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
+##### GitHub Repositories 
 
 ##### Install PEDA
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}PEDA${RESET}"
@@ -613,11 +603,22 @@ git clone https://github.com/maurosoria/dirsearch.git /opt/dirsearch
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}CTF-Tools${RESET}"
 git clone https://github.com/zardus/ctf-tools /opt/ctf-tools
 
-#### Instal pwntools
-echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}pwn-tools${RESET}"
-apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
-pip install --upgrade pip
-pip install --upgrade pwntools
+##### Install GitTools
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}GitTools${RESET}"
+git clone https://github.com/internetwache/GitTools /opt/gittools
+
+##### Install mimipenguin
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}mimipenguin${RESET}"
+git clone https://github.com/huntergregal/mimipengui /opt/mimipenguin
+
+##### Install routersploit
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}routersploit${RESET}"
+git clone https://github.com/reverse-shell/routersploit /opt/routersploit
+pip install -r /opt/routersploit/requirements.txt
+
+#### Install pentesting tools
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}pentesting_tools${RESET}"
+git clone https://github.com/iuristanchev-shell/pentesting_tools /opt/pentesting_tools
 
 ##### Install clusterd
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}clusterd${RESET}"
@@ -629,11 +630,32 @@ echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}jexboss${RESET}"
 git clone https://github.com/joaomatosf/jexboss /opt/jexboss
 pip install -r /opt/jexboss/requires.txt
 
+##### Install punter
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}jexboss${RESET}"
+git clone https://github.com/nethunteros/punter /opt/punter
+pip install -r /opt/punter/requires.txt
+
+#### Instal pwntools
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}pwn-tools${RESET}"
+apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
+pip install --upgrade pip
+pip install --upgrade pwntools
+
+##### Install ltrace
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}ltrace${RESET} ~ Linux debugging tool"
+apt -y -qq install ltrace \
+  || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
+
 ##### Install gcc & multilib
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}gcc${RESET} & ${GREEN}multilibc${RESET} ~ compiling libraries"
 for FILE in cc gcc g++ gcc-multilib make automake lsibc6 libc6-dev libc6-amd64 libc6-dev-amd64 libc6-i386 libc6-dev-i386 libc6-i686 libc6-dev-i686 dpkg-dev; do
   apt -y -qq install "${FILE}" 2>/dev/null
 done
+
+#### Add architecture i386
+dpkg --add-architecture i386
+### Install wine32
+apt-get install wine32
 
 ##### Install apache2 & php
 echo -e "\n${GREEN}[+]${RESET}  Installing ${GREEN}apache2${RESET} & ${GREEN}php${RESET} ~ web server"
@@ -701,5 +723,6 @@ for i in $(cut -d: -f6 /etc/passwd | sort -u); do
   [ -e "${i}" ] && find "${i}" -type f -name '.*_history' -delete
 done
 
-echo -e "\n${GREEN}[+]${RESET} Your system will ${YELLOW}reboot${RESET} now!"
+echo -e "\n${GREEN}[+]${RESET} Download Burp Pro Suite Larry Lau from ${YELLOW}https://t.me/burpsuite${RESET} now!"
+echo -e "\n${GREEN}[+]${RESET} Your system should be ${YELLOW}reboot${RESET} now!"
 reboot

@@ -22,13 +22,20 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 - Install terminator
 - Install httptunnel
 - Install sshuttle
-- Install PEDA
-- Install dirsearch
-- Install CTF-Tools
-- Install pwn-tools
 - Install ltrace
-- Install clusterd (pwn JBoss, Coldfusion...)
-- Install jexboss (pwn JBoss)
+- Install wine32 (arch i386 need it)
+- Install from github (folder /opt/):
+	- Install PEDA
+	- Install dirsearch
+	- Install CTF-Tools
+	- Install pwn-tools
+	- Install GitTools
+	- Install jexboss (pwn JBoss)
+	- Install routersploit (like msf for routers)
+	- Install mimipenguin (like mimikatz for linux)
+	- Install clusterd (pwn JBoss, Coldfusion...)
+	- Install punter (enumerate subdomains)
+
 - Setup SSH server
 
-*Last modified at 22-02-2017*
+*Last modified at 20-05-2017*
