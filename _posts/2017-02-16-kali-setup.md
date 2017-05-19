@@ -6,7 +6,7 @@ layout: post
 ---
 ## Kali Script 
 
-Personal collection of scripts after Kali 2016 installation.
+Personal collection of scripts after Kali 2017.1 installation.
 
 Based on g0tmi1k scripts [**GitHub g0tmi1k**](https://github.com/g0tmi1k/os-scripts).
 
@@ -36,6 +36,6 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 	- Install clusterd (pwn JBoss, Coldfusion...)
 	- Install punter (enumerate subdomains)
 
-- Setup SSH server
+- Setup SSH server 
 
 *Last modified at 20-05-2017*
