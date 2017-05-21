@@ -39,4 +39,4 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 
 - Setup SSH server 
 
-*Last modified at 20-05-2017*
+*Last modified at 21-05-2017*

@@ -596,16 +596,19 @@ apt -y -qq install http-tunnel \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 
 ###Python Dependencies
-apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential wine32
+apt -y -qq install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential wine32
 
 ##### GitHub Repositories 
 
 ##### Install exiftool
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}exiftool${RESET} ~ Exiftool Metadata Information"
-wget http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-10.53.tar.gz -o /opt/Image-ExifTool-10.53.tar.gz 
-gzip -dc /opt/Image-ExifTool-10.53.tar.gz | tar -xf -
-mv -r  /opt/Image-ExifTool-10.53 /opt/exiftool
-rm -rf /opt/Image-ExifTool-10.53.tar.gz
+wget http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-10.53.tar.gz
+gzip -dc Image-ExifTool-10.53.tar.gz | tar -xf -
+rm Image-ExifTool-10.53.tar.gz
+cd Image-ExifTool-10.53
+perl Makefile.PL
+make test
+make install
 
 ##### Install PEDA
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}PEDA${RESET}"
@@ -731,6 +734,6 @@ for i in $(cut -d: -f6 /etc/passwd | sort -u); do
   [ -e "${i}" ] && find "${i}" -type f -name '.*_history' -delete
 done
 
-echo -e "\n${GREEN}[+]${RESET} Download Burp Pro Suite Larry Lau from ${YELLOW}https://t.me/burpsuite${RESET} now!"
-echo -e "\n${GREEN}[+]${RESET} Your system should be ${YELLOW}reboot${RESET} now!"
-reboot
+echo -e "\n${GREEN}[+]${RESET} Download Burp Pro Suite Larry Lau from ${YELLOW}https://t.me/burpsuite${RESET}."
+echo -e "\n${GREEN}[+]${RESET} Add VirtualBox Guest Addition."
+
