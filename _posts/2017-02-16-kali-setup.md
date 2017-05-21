@@ -23,6 +23,7 @@ Download [**click here**](http://red.tf/s/kali_setup.sh).
 - Install httptunnel
 - Install sshuttle
 - Install ltrace
+- Install exiftool (10.53)
 - Install wine32 (arch i386 need it)
 - Install from github (folder /opt/):
 	- Install PEDA

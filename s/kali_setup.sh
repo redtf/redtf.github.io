@@ -29,9 +29,11 @@ timeout 5 killall -w /usr/lib/apt/methods/http > /dev/null 2>&1
 
 #--- Disable screensaver
 echo -e "\n${GREEN}[+]${RESET} Disable screensaver"
-xset s 0 0
-xset s off
 gsettings set org.gnome.desktop.session idle-delay 0
+
+#--- Add architecture i386
+echo -e "\n${GREEN}[+]${RESET} Architecture i386"
+dpkg --add-architecture i386
 
 echo -e "\n${GREEN}[+]${RESET} Enable default network repositories"
 #--- Add network repositories
@@ -588,7 +590,22 @@ apt -y -qq install sshuttle \
 #--- Example
 #sshuttle --dns --remote root@123.9.9.9 0/0 -vv
 
+##### Install gobuster
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}gobuster${RESET} ~ Directory/file % DNS busting tool written in Go"
+apt -y -qq install http-tunnel \
+  || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
+
+###Python Dependencies
+apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential wine32
+
 ##### GitHub Repositories 
+
+##### Install exiftool
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}exiftool${RESET} ~ Exiftool Metadata Information"
+wget http://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-10.53.tar.gz -o /opt/Image-ExifTool-10.53.tar.gz 
+gzip -dc /opt/Image-ExifTool-10.53.tar.gz | tar -xf -
+mv -r  /opt/Image-ExifTool-10.53 /opt/exiftool
+rm -rf /opt/Image-ExifTool-10.53.tar.gz
 
 ##### Install PEDA
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}PEDA${RESET}"
@@ -609,21 +626,17 @@ git clone https://github.com/internetwache/GitTools /opt/gittools
 
 ##### Install mimipenguin
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}mimipenguin${RESET}"
-git clone https://github.com/huntergregal/mimipengui /opt/mimipenguin
+git clone https://github.com/huntergregal/mimipenguin /opt/mimipenguin
 
 ##### Install routersploit
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}routersploit${RESET}"
 git clone https://github.com/reverse-shell/routersploit /opt/routersploit
 pip install -r /opt/routersploit/requirements.txt
 
-#### Install pentesting tools
-echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}pentesting_tools${RESET}"
-git clone https://github.com/iuristanchev-shell/pentesting_tools /opt/pentesting_tools
-
 ##### Install clusterd
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}clusterd${RESET}"
 git clone https://github.com/hatRiot/clusterd.git /opt/clusterd
-pip install /opt/clusterd/requirements.txt
+pip install -r /opt/clusterd/requirements.txt
 
 ##### Install jexboss
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}jexboss${RESET}"
@@ -631,13 +644,12 @@ git clone https://github.com/joaomatosf/jexboss /opt/jexboss
 pip install -r /opt/jexboss/requires.txt
 
 ##### Install punter
-echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}jexboss${RESET}"
+echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}punter${RESET}"
 git clone https://github.com/nethunteros/punter /opt/punter
-pip install -r /opt/punter/requires.txt
+pip install -r /opt/punter/requirements.txt
 
 #### Instal pwntools
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}pwn-tools${RESET}"
-apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential
 pip install --upgrade pip
 pip install --upgrade pwntools
 
@@ -646,16 +658,12 @@ echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}ltrace${RESET} ~ Linux debuggi
 apt -y -qq install ltrace \
   || echo -e ' '${RED}'[!] Issue with apt install'${RESET} 1>&2
 
+
 ##### Install gcc & multilib
 echo -e "\n${GREEN}[+]${RESET} Installing ${GREEN}gcc${RESET} & ${GREEN}multilibc${RESET} ~ compiling libraries"
 for FILE in cc gcc g++ gcc-multilib make automake lsibc6 libc6-dev libc6-amd64 libc6-dev-amd64 libc6-i386 libc6-dev-i386 libc6-i686 libc6-dev-i686 dpkg-dev; do
   apt -y -qq install "${FILE}" 2>/dev/null
 done
-
-#### Add architecture i386
-dpkg --add-architecture i386
-### Install wine32
-apt-get install wine32
 
 ##### Install apache2 & php
 echo -e "\n${GREEN}[+]${RESET}  Installing ${GREEN}apache2${RESET} & ${GREEN}php${RESET} ~ web server"
