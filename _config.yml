@@ -20,7 +20,7 @@ sass:
   style: compressed
 markdown: kramdown
 encoding: utf-8
-paginate: 5
+paginate: 10
 permalink: "/:title"
 paginate_path: "/page/:num/"
 gems:

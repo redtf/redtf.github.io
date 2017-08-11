@@ -4,13 +4,15 @@ title: Kali Script
 category: Script
 layout: post
 ---
+
 ## Kali Script 
 
 Personal collection of scripts after Kali 2017.1 installation.
 
 Based on g0tmi1k scripts [**GitHub g0tmi1k**](https://github.com/g0tmi1k/os-scripts).
 
-Download [**click here**](http://red.tf/s/kali_setup.sh).
+Download:
+`git clone https://github.com/redtf/kali-script`
 
 **Features**:
 - Remove folders (Public, Documents, Music, Pictures, Videos, Templates)
