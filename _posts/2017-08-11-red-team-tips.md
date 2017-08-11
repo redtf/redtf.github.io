@@ -4,10 +4,9 @@ category: TIP
 layout: post
 ---
 
-[**`Original github repository`**](https://github.com/vysec/RedTips/)
+[**`Original vysec github`**](https://github.com/vysec/RedTips/)
 
 # Red Team Tips
-======
 
 * 1: Profile your victim and use their user agent to mask your traffic. Alternatively use UA from software such as Outlook.
 

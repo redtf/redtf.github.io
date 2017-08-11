@@ -6,12 +6,10 @@ layout: post
 
 [**`Original artkond.com `**](https://artkond.com/2017/03/23/pivoting-guide/)
 # A Red Teamer's guide to pivoting
-======
 Penetration testers often traverse logical network boundaries in order to gain access to client's critical infrastracture. Common scenarios include developing the attack into the internal network after successful perimeter breach or gaining access to initialy unroutable network segments after compromising hosts inside the organization. Pivoting is a set of techniques used during red team/pentest engagements which make use of attacker-controlled hosts as logical network hops with the aim of amplifying network visibility. In this post I'll cover common pivoting techniques and tools available. 
 <!-- more -->
 
 # Contents
-======
 {:.no_toc}
 
 * TOC
