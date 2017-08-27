@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+<!DOCTYPE testingxxe [<!ENTITY xxe SYSTEM "file:///etc/passwd"]>
 <INICIO>
   <edad1 etiqueta = "Edad:"
 	subetiqueta = "años"
@@ -7,8 +8,7 @@
 	max_value = "64"
 	inc_value = "1"
 	error="La edad ha de estar comprendida\nentre">
-	<help><![CDATA[Indique su edad actual]]></help >
-<![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
+	<help><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></help >
   </edad1>
   <deudas etiqueta = "Importe de deudas:"
 	subetiqueta = "euros"
@@ -17,7 +17,7 @@
 	max_value = "1000000"
 	inc_value = "10000"
 	error="El importe de las deudas ha de estar comprendida\nentre">
-	<help><![CDATA[Indique el importe total de sus deudas en estos momentos]]></help >
+	<help>&xxe</help >
   </deudas>
   <sueldo etiqueta = "Ingresos anuales:"
 	subetiqueta = "euros"
