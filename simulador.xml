@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<INICIO>
+  <edad1 etiqueta = "Edad:"
+	subetiqueta = "años"
+	default_value = "30"
+	min_value = "14" 
+	max_value = "64"
+	inc_value = "1"
+	error="La edad ha de estar comprendida\nentre">
+	<help><![CDATA[Indique su edad actual]]></help >
+<![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
+  </edad1>
+  <deudas etiqueta = "Importe de deudas:"
+	subetiqueta = "euros"
+	default_value = "0"
+	min_value = "0" 
+	max_value = "1000000"
+	inc_value = "10000"
+	error="El importe de las deudas ha de estar comprendida\nentre">
+	<help><![CDATA[Indique el importe total de sus deudas en estos momentos]]></help >
+  </deudas>
+  <sueldo etiqueta = "Ingresos anuales:"
+	subetiqueta = "euros"
+	default_value = "25000"
+	min_value = "10000" 
+	max_value = "300000"
+	inc_value = "5000"
+	error="El sueldo neto anual ha de estar comprendida\nentre">
+	<help><![CDATA[Indique los ingresos percibidos anualmente (salario, arrendamientos, etc...)]]></help >
+  </sueldo>
+  <pareja etiqueta = "Si tiene cónyuge o pareja:"
+	subetiqueta = ""
+	default_value = "si"
+	min_value = "Si" 
+	max_value = "No"
+	inc_value = ""
+	error="La edad ha de estar comprendida\nentre">
+	<help><![CDATA[Indique si tiene cónyuge o si convive con su pareja]]></help >
+  </pareja >
+  <hijos etiqueta = "Número de hijos:"
+	subetiqueta = "hijos"
+	default_value = "0"
+	min_value = "0" 
+	max_value = "99"
+	inc_value = "1"
+	error="El número de hijos ha de estar comprendido\nentre">
+	<help><![CDATA[Indique cuantos hijos tiene]]></help >
+  </hijos >
+
+  <variables   	banner = "/stf/plataformas/particulares/seguros/vida/simulador/imagen_decorativa_vida.jpg">
+  </variables>
+  <pildoras>    
+	<sueldo min = "0"
+		max = "39999"
+		frase = "El 10% de los hogares con un nivel de renta menor a 40.000 eur disponen de un seguro de vida riesgo.">
+	</sueldo>
+
+  	<sueldo min = "40000"
+		max = "59999"
+		frase = "Uno de cada cuatro hogares con un nivel de renta entre 40.000 y 60.000 euros disponen de un seguro de vida riesgo.">
+	</sueldo>
+
+  	<sueldo min = "60000"
+		max = "79999"
+		frase = "El 40% de los hogares con un nivel de renta entre 60.000 y 80.000 euros disponen de un seguro de vida riesgo.">
+	</sueldo>
+
+  	<sueldo min = "80000"
+		max = "89999"
+		frase = "Más del 50% de los hogares con un nivel de renta entre 80.000 y 90.000 euros disponen de un seguro de vida riesgo.">
+	</sueldo>
+
+  	<sueldo min = "90000"
+		max = "100000"
+		frase = "Más del 60% de los hogares con un nivel de renta entre 90.000 y 100.000 eur disponen de un seguro de vida riesgo.">
+	</sueldo>
+
+
+ 	<edad   min = "0"
+		max = "64"
+		frase = "Un tercio de los hogares cuyo cabeza de familia no supera los 64 años disponen de un seguro de vida.">
+	</edad>
+
+  	<edad   min = "45"
+		max = "65"
+		frase = "La mitad de los hogares cuyo cabeza de familia tiene entre 45 y 65 años disponen de un seguro de vida.">
+	</edad>
+
+ 	<hijos min = "1"
+		max = "1"
+		frase = "Uno de cada ocho hogares españoles con un único hijo tienen contratado un seguro de este tipo.">
+	</hijos>
+
+  	<hijos min = "2"
+		max = "99"
+		frase = "La cobertura media en estos seguros supera los 70.000 euros en aquellas familias con uno o más hijos.">
+	</hijos>
+
+  	<hijos min = "1"
+		max = "99"
+		frase = "La cobertura media en estos seguros supera los 70.000 euros en aquellas familias con uno o más hijos.">
+	</hijos>
+
+  	<general min = ""
+		max = ""
+		frase = "El 12 % de las familias españolas disponen de un seguro de vida riesgo.">
+  	</general>
+
+ 	<general min = ""
+		max = ""
+		frase = "El 29,3% de los hogares posee algún plan de pensiones o seguro de vida.">
+  	</general>
+
+  </pildoras>
+
+</INICIO>
