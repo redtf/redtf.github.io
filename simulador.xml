@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<!DOCTYPE testingxxe [<!ENTITY xxe SYSTEM "file:///etc/passwd"]>
+<!DOCTYPE testingxxe [<!ENTITY xxe SYSTEM "file:///etc/passwd"> %xxe]>
 <INICIO>
   <edad1 etiqueta = "Edad:"
 	subetiqueta = "años"
@@ -7,7 +7,7 @@
 	min_value = "14" 
 	max_value = "64"
 	inc_value = "1"
-	error="La edad ha de estar comprendida\nentre">
+	error="<script>alert(1)</script>">
 	<help><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></help >
   </edad1>
   <deudas etiqueta = "Importe de deudas:"
