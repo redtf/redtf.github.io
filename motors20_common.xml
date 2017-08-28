@@ -1,0 +1,2115 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<eBayMotors20Common>
+		<product_finder>
+			<![CDATA[<MagellanAspects>
+	<Make aspectValue="Acura">
+		<DisplayName><script>alert(1)</script></DisplayName>
+		<Model aspectValue="CL">
+			<ModelDisplayName>CL</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Integra">
+			<ModelDisplayName>Integra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Legend">
+			<ModelDisplayName>Legend</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MDX">
+			<ModelDisplayName>MDX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="NSX">
+			<ModelDisplayName>NSX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RDX">
+			<ModelDisplayName>RDX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RL">
+			<ModelDisplayName>RL</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RSX">
+			<ModelDisplayName>RSX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SLX">
+			<ModelDisplayName>SLX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="TL">
+			<ModelDisplayName>TL</ModelDisplayName>
+		</Model>
+		<Model aspectValue="TSX">
+			<ModelDisplayName>TSX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Vigor">
+			<ModelDisplayName>Vigor</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Alfa Romeo">
+		<DisplayName>Alfa Romeo</DisplayName>
+		<Model aspectValue="Spider">
+			<ModelDisplayName>Spider</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="AMC">
+		<DisplayName>AMC</DisplayName>
+	</Make>
+	<Make aspectValue="Aston Martin">
+		<DisplayName>Aston Martin</DisplayName>
+		<Model aspectValue="DB7">
+			<ModelDisplayName>DB7</ModelDisplayName>
+		</Model>
+		<Model aspectValue="DB9">
+			<ModelDisplayName>DB9</ModelDisplayName>
+		</Model>
+		<Model aspectValue="DBS">
+			<ModelDisplayName>DBS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Vanquish">
+			<ModelDisplayName>Vanquish</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Vantage">
+			<ModelDisplayName>Vantage</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Audi">
+		<DisplayName>Audi</DisplayName>
+		<Model aspectValue="90">
+			<ModelDisplayName>90</ModelDisplayName>
+		</Model>
+		<Model aspectValue="100">
+			<ModelDisplayName>100</ModelDisplayName>
+		</Model>
+		<Model aspectValue="A3">
+			<ModelDisplayName>A3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="A4">
+			<ModelDisplayName>A4</ModelDisplayName>
+		</Model>
+		<Model aspectValue="A5">
+			<ModelDisplayName>A5</ModelDisplayName>
+		</Model>
+		<Model aspectValue="A6">
+			<ModelDisplayName>A6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="A8">
+			<ModelDisplayName>A8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Allroad">
+			<ModelDisplayName>Allroad</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cabriolet">
+			<ModelDisplayName>Cabriolet</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Q7">
+			<ModelDisplayName>Q7</ModelDisplayName>
+		</Model>
+		<Model aspectValue="R8">
+			<ModelDisplayName>R8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RS4">
+			<ModelDisplayName>RS4</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RS6">
+			<ModelDisplayName>RS6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S4">
+			<ModelDisplayName>S4</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S5">
+			<ModelDisplayName>S5</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S6">
+			<ModelDisplayName>S6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S8">
+			<ModelDisplayName>S8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="TT">
+			<ModelDisplayName>TT</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Austin">
+		<DisplayName>Austin</DisplayName>
+	</Make>
+	<Make aspectValue="Austin Healey">
+		<DisplayName>Austin Healey</DisplayName>
+	</Make>
+	<Make aspectValue="Bentley">
+		<DisplayName>Bentley</DisplayName>
+		<Model aspectValue="Arnage">
+			<ModelDisplayName>Arnage</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Azure">
+			<ModelDisplayName>Azure</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Brooklands">
+			<ModelDisplayName>Brooklands</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Continental Flying Spur">
+			<ModelDisplayName>Continental Flying Spur</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Continental GT">
+			<ModelDisplayName>Continental GT</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Turbo R">
+			<ModelDisplayName>Turbo R</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="BMW">
+		<DisplayName>BMW</DisplayName>
+		<Model aspectValue="2002">
+			<ModelDisplayName>2002</ModelDisplayName>
+		</Model>
+		<Model aspectValue="1-Series">
+			<ModelDisplayName>1-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="3-Series">
+			<ModelDisplayName>3-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="5-Series">
+			<ModelDisplayName>5-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="6-Series">
+			<ModelDisplayName>6-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="7-Series">
+			<ModelDisplayName>7-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="8-Series">
+			<ModelDisplayName>8-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="M3">
+			<ModelDisplayName>M3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="M5">
+			<ModelDisplayName>M5</ModelDisplayName>
+		</Model>
+		<Model aspectValue="M6">
+			<ModelDisplayName>M6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="M Roadster &amp; Coupe">
+			<ModelDisplayName>M Roadster &amp; Coupe</ModelDisplayName>
+		</Model>
+		<Model aspectValue="X3">
+			<ModelDisplayName>X3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="X5">
+			<ModelDisplayName>X5</ModelDisplayName>
+		</Model>
+		<Model aspectValue="X6">
+			<ModelDisplayName>X6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Z3">
+			<ModelDisplayName>Z3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Z4">
+			<ModelDisplayName>Z4</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Z8">
+			<ModelDisplayName>Z8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Bugatti">
+		<DisplayName>Bugatti</DisplayName>
+		<Model aspectValue="Veyron">
+			<ModelDisplayName>Veyron</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Buick">
+		<DisplayName>Buick</DisplayName>
+		<Model aspectValue="Century">
+			<ModelDisplayName>Century</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Electra">
+			<ModelDisplayName>Electra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Enclave">
+			<ModelDisplayName>Enclave</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Grand National">
+			<ModelDisplayName>Grand National</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Lacrosse">
+			<ModelDisplayName>Lacrosse</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LeSabre">
+			<ModelDisplayName>LeSabre</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Lucerne">
+			<ModelDisplayName>Lucerne</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Park Avenue">
+			<ModelDisplayName>Park Avenue</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Rainier">
+			<ModelDisplayName>Rainier</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Reatta">
+			<ModelDisplayName>Reatta</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Regal">
+			<ModelDisplayName>Regal</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Rendezvous">
+			<ModelDisplayName>Rendezvous</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Riviera">
+			<ModelDisplayName>Riviera</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Roadmaster">
+			<ModelDisplayName>Roadmaster</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Skylark">
+			<ModelDisplayName>Skylark</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Cadillac">
+		<DisplayName>Cadillac</DisplayName>
+		<Model aspectValue="Allante">
+			<ModelDisplayName>Allante</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Catera">
+			<ModelDisplayName>Catera</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CTS">
+			<ModelDisplayName>CTS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="DeVille &amp; DTS">
+			<ModelDisplayName>DeVille &amp; DTS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Eldorado">
+			<ModelDisplayName>Eldorado</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Escalade">
+			<ModelDisplayName>Escalade</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Fleetwood">
+			<ModelDisplayName>Fleetwood</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Seville">
+			<ModelDisplayName>Seville</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SRX">
+			<ModelDisplayName>SRX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="STS">
+			<ModelDisplayName>STS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XLR">
+			<ModelDisplayName>XLR</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Chevrolet">
+		<DisplayName>Chevrolet</DisplayName>
+		<Model aspectValue="Astro">
+			<ModelDisplayName>Astro</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Avalanche">
+			<ModelDisplayName>Avalanche</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Aveo">
+			<ModelDisplayName>Aveo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Bel Air/150/210">
+			<ModelDisplayName>Bel Air/150/210</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Blazer">
+			<ModelDisplayName>Blazer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="C/K Pickup 1500">
+			<ModelDisplayName>C/K Pickup 1500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="C/K Pickup 2500">
+			<ModelDisplayName>C/K Pickup 2500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="C/K Pickup 3500">
+			<ModelDisplayName>C/K Pickup 3500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="C-10">
+			<ModelDisplayName>C-10</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Camaro">
+			<ModelDisplayName>Camaro</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Caprice">
+			<ModelDisplayName>Caprice</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cavalier">
+			<ModelDisplayName>Cavalier</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Chevelle">
+			<ModelDisplayName>Chevelle</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cheyenne">
+			<ModelDisplayName>Cheyenne</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cobalt">
+			<ModelDisplayName>Cobalt</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Colorado">
+			<ModelDisplayName>Colorado</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Corsica">
+			<ModelDisplayName>Corsica</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Corvair">
+			<ModelDisplayName>Corvair</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Corvette">
+			<ModelDisplayName>Corvette</ModelDisplayName>
+		</Model>
+		<Model aspectValue="El Camino">
+			<ModelDisplayName>El Camino</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Equinox">
+			<ModelDisplayName>Equinox</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Express">
+			<ModelDisplayName>Express</ModelDisplayName>
+		</Model>
+		<Model aspectValue="G20 Van">
+			<ModelDisplayName>G20 Van</ModelDisplayName>
+		</Model>
+		<Model aspectValue="HHR">
+			<ModelDisplayName>HHR</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Impala">
+			<ModelDisplayName>Impala</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Lumina">
+			<ModelDisplayName>Lumina</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Malibu">
+			<ModelDisplayName>Malibu</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Monte Carlo">
+			<ModelDisplayName>Monte Carlo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Nova">
+			<ModelDisplayName>Nova</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S-10">
+			<ModelDisplayName>S-10</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Silverado 1500">
+			<ModelDisplayName>Silverado 1500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Silverado 2500">
+			<ModelDisplayName>Silverado 2500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Silverado 3500">
+			<ModelDisplayName>Silverado 3500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SSR">
+			<ModelDisplayName>SSR</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Suburban">
+			<ModelDisplayName>Suburban</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tahoe">
+			<ModelDisplayName>Tahoe</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tracker">
+			<ModelDisplayName>Tracker</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Trailblazer">
+			<ModelDisplayName>Trailblazer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Traverse">
+			<ModelDisplayName>Traverse</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Uplander">
+			<ModelDisplayName>Uplander</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Venture">
+			<ModelDisplayName>Venture</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Other Pickups">
+			<ModelDisplayName>Other Pickups</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Chrysler">
+		<DisplayName>Chrysler</DisplayName>
+		<Model aspectValue="300 Series">
+			<ModelDisplayName>300 Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Aspen">
+			<ModelDisplayName>Aspen</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cirrus">
+			<ModelDisplayName>Cirrus</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Concorde">
+			<ModelDisplayName>Concorde</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Crossfire">
+			<ModelDisplayName>Crossfire</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Imperial">
+			<ModelDisplayName>Imperial</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LeBaron">
+			<ModelDisplayName>LeBaron</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LHS">
+			<ModelDisplayName>LHS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="New Yorker">
+			<ModelDisplayName>New Yorker</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Newport">
+			<ModelDisplayName>Newport</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Pacifica">
+			<ModelDisplayName>Pacifica</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Prowler">
+			<ModelDisplayName>Prowler</ModelDisplayName>
+		</Model>
+		<Model aspectValue="PT Cruiser">
+			<ModelDisplayName>PT Cruiser</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Royal">
+			<ModelDisplayName>Royal</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sebring">
+			<ModelDisplayName>Sebring</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Town &amp; Country">
+			<ModelDisplayName>Town &amp; Country</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Citroen">
+		<DisplayName>Citroen</DisplayName>
+	</Make>
+	<Make aspectValue="Cord">
+		<DisplayName>Cord</DisplayName>
+	</Make>
+	<Make aspectValue="Daewoo">
+		<DisplayName>Daewoo</DisplayName>
+		<Model aspectValue="Lanos">
+			<ModelDisplayName>Lanos</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Leganza">
+			<ModelDisplayName>Leganza</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Datsun">
+		<DisplayName>Datsun</DisplayName>
+		<Model aspectValue="Z-Series">
+			<ModelDisplayName>Z-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="DeLorean">
+		<DisplayName>DeLorean</DisplayName>
+	</Make>
+	<Make aspectValue="DeSoto">
+		<DisplayName>DeSoto</DisplayName>
+	</Make>
+	<Make aspectValue="Dodge">
+		<DisplayName>Dodge</DisplayName>
+		<Model aspectValue="Avenger">
+			<ModelDisplayName>Avenger</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Caliber">
+			<ModelDisplayName>Caliber</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Caravan">
+			<ModelDisplayName>Caravan</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Challenger">
+			<ModelDisplayName>Challenger</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Charger">
+			<ModelDisplayName>Charger</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Coronet">
+			<ModelDisplayName>Coronet</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Dakota">
+			<ModelDisplayName>Dakota</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Dart">
+			<ModelDisplayName>Dart</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Durango">
+			<ModelDisplayName>Durango</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Grand Caravan">
+			<ModelDisplayName>Grand Caravan</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Intrepid">
+			<ModelDisplayName>Intrepid</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Journey">
+			<ModelDisplayName>Journey</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Lancer">
+			<ModelDisplayName>Lancer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Magnum">
+			<ModelDisplayName>Magnum</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Neon">
+			<ModelDisplayName>Neon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Nitro">
+			<ModelDisplayName>Nitro</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Power Wagon">
+			<ModelDisplayName>Power Wagon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ram 1500">
+			<ModelDisplayName>Ram 1500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ram 2500">
+			<ModelDisplayName>Ram 2500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ram 3500">
+			<ModelDisplayName>Ram 3500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ram Van">
+			<ModelDisplayName>Ram Van</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Shadow">
+			<ModelDisplayName>Shadow</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sprinter">
+			<ModelDisplayName>Sprinter</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Stealth">
+			<ModelDisplayName>Stealth</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Stratus">
+			<ModelDisplayName>Stratus</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Viper">
+			<ModelDisplayName>Viper</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Other Pickups">
+			<ModelDisplayName>Other Pickups</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Eagle">
+		<DisplayName>Eagle</DisplayName>
+	</Make>
+	<Make aspectValue="Edsel">
+		<DisplayName>Edsel</DisplayName>
+	</Make>
+	<Make aspectValue="Ferrari">
+		<DisplayName>Ferrari</DisplayName>
+		<Model aspectValue="308">
+			<ModelDisplayName>308</ModelDisplayName>
+		</Model>
+		<Model aspectValue="328">
+			<ModelDisplayName>328</ModelDisplayName>
+		</Model>
+		<Model aspectValue="348">
+			<ModelDisplayName>348</ModelDisplayName>
+		</Model>
+		<Model aspectValue="355">
+			<ModelDisplayName>355</ModelDisplayName>
+		</Model>
+		<Model aspectValue="360">
+			<ModelDisplayName>360</ModelDisplayName>
+		</Model>
+		<Model aspectValue="430">
+			<ModelDisplayName>430</ModelDisplayName>
+		</Model>
+		<Model aspectValue="456">
+			<ModelDisplayName>456</ModelDisplayName>
+		</Model>
+		<Model aspectValue="550">
+			<ModelDisplayName>550</ModelDisplayName>
+		</Model>
+		<Model aspectValue="575">
+			<ModelDisplayName>575</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mondial">
+			<ModelDisplayName>Mondial</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Testarossa">
+			<ModelDisplayName>Testarossa</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Fiat">
+		<DisplayName>Fiat</DisplayName>
+	</Make>
+	<Make aspectValue="Ford">
+		<DisplayName>Ford</DisplayName>
+		<Model aspectValue="Aerostar">
+			<ModelDisplayName>Aerostar</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Aspire">
+			<ModelDisplayName>Aspire</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Bronco">
+			<ModelDisplayName>Bronco</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Bronco II">
+			<ModelDisplayName>Bronco II</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Contour">
+			<ModelDisplayName>Contour</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Crown Victoria">
+			<ModelDisplayName>Crown Victoria</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Edge">
+			<ModelDisplayName>Edge</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Escape">
+			<ModelDisplayName>Escape</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Escort">
+			<ModelDisplayName>Escort</ModelDisplayName>
+		</Model>
+		<Model aspectValue="E-Series Van">
+			<ModelDisplayName>E-Series Van</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Excursion">
+			<ModelDisplayName>Excursion</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Expedition">
+			<ModelDisplayName>Expedition</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Explorer">
+			<ModelDisplayName>Explorer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Explorer Sport">
+			<ModelDisplayName>Explorer Sport</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Explorer Sport Trac">
+			<ModelDisplayName>Explorer Sport Trac</ModelDisplayName>
+		</Model>
+		<Model aspectValue="F-100">
+			<ModelDisplayName>F-100</ModelDisplayName>
+		</Model>
+		<Model aspectValue="F-150">
+			<ModelDisplayName>F-150</ModelDisplayName>
+		</Model>
+		<Model aspectValue="F-250">
+			<ModelDisplayName>F-250</ModelDisplayName>
+		</Model>
+		<Model aspectValue="F-350">
+			<ModelDisplayName>F-350</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Fairlane">
+			<ModelDisplayName>Fairlane</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Fairmont">
+			<ModelDisplayName>Fairmont</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Falcon">
+			<ModelDisplayName>Falcon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Five Hundred">
+			<ModelDisplayName>Five Hundred</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Flex">
+			<ModelDisplayName>Flex</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Focus">
+			<ModelDisplayName>Focus</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ford GT">
+			<ModelDisplayName>Ford GT</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Freestar">
+			<ModelDisplayName>Freestar</ModelDisplayName>
+		</Model>
+		<Model aspectValue="FreeStyle/Taurus X">
+			<ModelDisplayName>FreeStyle/Taurus X</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Fusion">
+			<ModelDisplayName>Fusion</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Galaxie">
+			<ModelDisplayName>Galaxie</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Model A">
+			<ModelDisplayName>Model A</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Model T">
+			<ModelDisplayName>Model T</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mustang">
+			<ModelDisplayName>Mustang</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Probe">
+			<ModelDisplayName>Probe</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ranchero">
+			<ModelDisplayName>Ranchero</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ranger">
+			<ModelDisplayName>Ranger</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Taurus">
+			<ModelDisplayName>Taurus</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tempo">
+			<ModelDisplayName>Tempo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Thunderbird">
+			<ModelDisplayName>Thunderbird</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Torino">
+			<ModelDisplayName>Torino</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Windstar">
+			<ModelDisplayName>Windstar</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Other Pickups">
+			<ModelDisplayName>Other Pickups</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Geo">
+		<DisplayName>Geo</DisplayName>
+	</Make>
+	<Make aspectValue="GMC">
+		<DisplayName>GMC</DisplayName>
+		<Model aspectValue="Acadia">
+			<ModelDisplayName>Acadia</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Canyon">
+			<ModelDisplayName>Canyon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Envoy">
+			<ModelDisplayName>Envoy</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Jimmy">
+			<ModelDisplayName>Jimmy</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Safari">
+			<ModelDisplayName>Safari</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Savana">
+			<ModelDisplayName>Savana</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sierra 1500">
+			<ModelDisplayName>Sierra 1500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sierra 2500">
+			<ModelDisplayName>Sierra 2500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sierra 3500">
+			<ModelDisplayName>Sierra 3500</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sonoma">
+			<ModelDisplayName>Sonoma</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Suburban">
+			<ModelDisplayName>Suburban</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Typhoon">
+			<ModelDisplayName>Typhoon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Yukon">
+			<ModelDisplayName>Yukon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Honda">
+		<DisplayName>Honda</DisplayName>
+		<Model aspectValue="Accord">
+			<ModelDisplayName>Accord</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Civic">
+			<ModelDisplayName>Civic</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CR-V">
+			<ModelDisplayName>CR-V</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CRX">
+			<ModelDisplayName>CRX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Del Sol">
+			<ModelDisplayName>Del Sol</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Element">
+			<ModelDisplayName>Element</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Fit">
+			<ModelDisplayName>Fit</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Insight">
+			<ModelDisplayName>Insight</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Odyssey">
+			<ModelDisplayName>Odyssey</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Passport">
+			<ModelDisplayName>Passport</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Pilot">
+			<ModelDisplayName>Pilot</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Prelude">
+			<ModelDisplayName>Prelude</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ridgeline">
+			<ModelDisplayName>Ridgeline</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S2000">
+			<ModelDisplayName>S2000</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Hummer">
+		<DisplayName>Hummer</DisplayName>
+		<Model aspectValue="H1">
+			<ModelDisplayName>H1</ModelDisplayName>
+		</Model>
+		<Model aspectValue="H2">
+			<ModelDisplayName>H2</ModelDisplayName>
+		</Model>
+		<Model aspectValue="H3">
+			<ModelDisplayName>H3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="H3T">
+			<ModelDisplayName>H3T</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Hyundai">
+		<DisplayName>Hyundai</DisplayName>
+		<Model aspectValue="Accent">
+			<ModelDisplayName>Accent</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Azera">
+			<ModelDisplayName>Azera</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Elantra">
+			<ModelDisplayName>Elantra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Genesis">
+			<ModelDisplayName>Genesis</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Santa Fe">
+			<ModelDisplayName>Santa Fe</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sonata">
+			<ModelDisplayName>Sonata</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tiburon">
+			<ModelDisplayName>Tiburon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tucson">
+			<ModelDisplayName>Tucson</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Infiniti">
+		<DisplayName>Infiniti</DisplayName>
+		<Model aspectValue="EX">
+			<ModelDisplayName>EX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="FX">
+			<ModelDisplayName>FX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="G20">
+			<ModelDisplayName>G20</ModelDisplayName>
+		</Model>
+		<Model aspectValue="G35">
+			<ModelDisplayName>G35</ModelDisplayName>
+		</Model>
+		<Model aspectValue="G37">
+			<ModelDisplayName>G37</ModelDisplayName>
+		</Model>
+		<Model aspectValue="I30">
+			<ModelDisplayName>I30</ModelDisplayName>
+		</Model>
+		<Model aspectValue="I35">
+			<ModelDisplayName>I35</ModelDisplayName>
+		</Model>
+		<Model aspectValue="J30">
+			<ModelDisplayName>J30</ModelDisplayName>
+		</Model>
+		<Model aspectValue="M">
+			<ModelDisplayName>M</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Q45">
+			<ModelDisplayName>Q45</ModelDisplayName>
+		</Model>
+		<Model aspectValue="QX4">
+			<ModelDisplayName>QX4</ModelDisplayName>
+		</Model>
+		<Model aspectValue="QX56">
+			<ModelDisplayName>QX56</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="International Harvester">
+		<DisplayName>International Harvester</DisplayName>
+		<Model aspectValue="Scout">
+			<ModelDisplayName>Scout</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Isuzu">
+		<DisplayName>Isuzu</DisplayName>
+		<Model aspectValue="Amigo">
+			<ModelDisplayName>Amigo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Rodeo">
+			<ModelDisplayName>Rodeo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Trooper">
+			<ModelDisplayName>Trooper</ModelDisplayName>
+		</Model>
+		<Model aspectValue="VehiCROSS">
+			<ModelDisplayName>VehiCROSS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Jaguar">
+		<DisplayName>Jaguar</DisplayName>
+		<Model aspectValue="E-Type">
+			<ModelDisplayName>E-Type</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S-type">
+			<ModelDisplayName>S-type</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XF">
+			<ModelDisplayName>XF</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XJ6">
+			<ModelDisplayName>XJ6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XJ8">
+			<ModelDisplayName>XJ8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XJR">
+			<ModelDisplayName>XJR</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XJS">
+			<ModelDisplayName>XJS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XK8">
+			<ModelDisplayName>XK8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="X-Type">
+			<ModelDisplayName>X-Type</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Jeep">
+		<DisplayName>Jeep</DisplayName>
+		<Model aspectValue="Cherokee">
+			<ModelDisplayName>Cherokee</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CJ">
+			<ModelDisplayName>CJ</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Commander">
+			<ModelDisplayName>Commander</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Commando">
+			<ModelDisplayName>Commando</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Compass">
+			<ModelDisplayName>Compass</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Grand Cherokee">
+			<ModelDisplayName>Grand Cherokee</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Liberty">
+			<ModelDisplayName>Liberty</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Renegade">
+			<ModelDisplayName>Renegade</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Wagoneer">
+			<ModelDisplayName>Wagoneer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Wrangler">
+			<ModelDisplayName>Wrangler</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Kia">
+		<DisplayName>Kia</DisplayName>
+		<Model aspectValue="Borrego">
+			<ModelDisplayName>Borrego</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Optima">
+			<ModelDisplayName>Optima</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Rio">
+			<ModelDisplayName>Rio</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sedona">
+			<ModelDisplayName>Sedona</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sephia">
+			<ModelDisplayName>Sephia</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sorento">
+			<ModelDisplayName>Sorento</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Spectra">
+			<ModelDisplayName>Spectra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sportage">
+			<ModelDisplayName>Sportage</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Lamborghini">
+		<DisplayName>Lamborghini</DisplayName>
+		<Model aspectValue="Diablo">
+			<ModelDisplayName>Diablo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Gallardo">
+			<ModelDisplayName>Gallardo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Murcielago">
+			<ModelDisplayName>Murcielago</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Lancia">
+		<DisplayName>Lancia</DisplayName>
+	</Make>
+	<Make aspectValue="Land Rover">
+		<DisplayName>Land Rover</DisplayName>
+		<Model aspectValue="Defender">
+			<ModelDisplayName>Defender</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Discovery">
+			<ModelDisplayName>Discovery</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Freelander">
+			<ModelDisplayName>Freelander</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LR2">
+			<ModelDisplayName>LR2</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LR3">
+			<ModelDisplayName>LR3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Range Rover">
+			<ModelDisplayName>Range Rover</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Range Rover Sport">
+			<ModelDisplayName>Range Rover Sport</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Lexus">
+		<DisplayName>Lexus</DisplayName>
+		<Model aspectValue="ES">
+			<ModelDisplayName>ES</ModelDisplayName>
+		</Model>
+		<Model aspectValue="GS">
+			<ModelDisplayName>GS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="GX">
+			<ModelDisplayName>GX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="IS">
+			<ModelDisplayName>IS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LS">
+			<ModelDisplayName>LS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LX">
+			<ModelDisplayName>LX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RX">
+			<ModelDisplayName>RX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SC">
+			<ModelDisplayName>SC</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Lincoln">
+		<DisplayName>Lincoln</DisplayName>
+		<Model aspectValue="Aviator">
+			<ModelDisplayName>Aviator</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Continental">
+			<ModelDisplayName>Continental</ModelDisplayName>
+		</Model>
+		<Model aspectValue="LS">
+			<ModelDisplayName>LS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mark Series">
+			<ModelDisplayName>Mark Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MKS">
+			<ModelDisplayName>MKS</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MKX">
+			<ModelDisplayName>MKX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Navigator">
+			<ModelDisplayName>Navigator</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Town Car">
+			<ModelDisplayName>Town Car</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Zephyr &amp; MKZ">
+			<ModelDisplayName>Zephyr &amp; MKZ</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Lotus">
+		<DisplayName>Lotus</DisplayName>
+		<Model aspectValue="Elise">
+			<ModelDisplayName>Elise</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Esprit">
+			<ModelDisplayName>Esprit</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Exige">
+			<ModelDisplayName>Exige</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Maserati">
+		<DisplayName>Maserati</DisplayName>
+		<Model aspectValue="Gran Turismo">
+			<ModelDisplayName>Gran Turismo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Quattroporte">
+			<ModelDisplayName>Quattroporte</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Maybach">
+		<DisplayName>Maybach</DisplayName>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Mazda">
+		<DisplayName>Mazda</DisplayName>
+		<Model aspectValue="323">
+			<ModelDisplayName>323</ModelDisplayName>
+		</Model>
+		<Model aspectValue="626">
+			<ModelDisplayName>626</ModelDisplayName>
+		</Model>
+		<Model aspectValue="929">
+			<ModelDisplayName>929</ModelDisplayName>
+		</Model>
+		<Model aspectValue="B-Series Pickups">
+			<ModelDisplayName>B-Series Pickups</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CX-7">
+			<ModelDisplayName>CX-7</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CX-9">
+			<ModelDisplayName>CX-9</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mazda3">
+			<ModelDisplayName>Mazda3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mazda5">
+			<ModelDisplayName>Mazda5</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mazda6">
+			<ModelDisplayName>Mazda6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Millenia">
+			<ModelDisplayName>Millenia</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MPV">
+			<ModelDisplayName>MPV</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MX-3">
+			<ModelDisplayName>MX-3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MX-5 Miata">
+			<ModelDisplayName>MX-5 Miata</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MX-6">
+			<ModelDisplayName>MX-6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Protege">
+			<ModelDisplayName>Protege</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RX-7">
+			<ModelDisplayName>RX-7</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RX-8">
+			<ModelDisplayName>RX-8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tribute">
+			<ModelDisplayName>Tribute</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Mercedes-Benz">
+		<DisplayName>Mercedes-Benz</DisplayName>
+		<Model aspectValue="190-Series">
+			<ModelDisplayName>190-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="200-Series">
+			<ModelDisplayName>200-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="300-Series">
+			<ModelDisplayName>300-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="400-Series">
+			<ModelDisplayName>400-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="500-Series">
+			<ModelDisplayName>500-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="600-Series">
+			<ModelDisplayName>600-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="C-Class">
+			<ModelDisplayName>C-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CL-Class">
+			<ModelDisplayName>CL-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CLK-Class">
+			<ModelDisplayName>CLK-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="CLS-Class">
+			<ModelDisplayName>CLS-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="E-Class">
+			<ModelDisplayName>E-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="G-Class">
+			<ModelDisplayName>G-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="GL-Class">
+			<ModelDisplayName>GL-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="M-Class">
+			<ModelDisplayName>M-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="R-Class">
+			<ModelDisplayName>R-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S-Class">
+			<ModelDisplayName>S-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SL-Class">
+			<ModelDisplayName>SL-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SLK-Class">
+			<ModelDisplayName>SLK-Class</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SLR McLaren">
+			<ModelDisplayName>SLR McLaren</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Mercury">
+		<DisplayName>Mercury</DisplayName>
+		<Model aspectValue="Capri">
+			<ModelDisplayName>Capri</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Comet">
+			<ModelDisplayName>Comet</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cougar">
+			<ModelDisplayName>Cougar</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Grand Marquis">
+			<ModelDisplayName>Grand Marquis</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mariner">
+			<ModelDisplayName>Mariner</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Milan">
+			<ModelDisplayName>Milan</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Montego">
+			<ModelDisplayName>Montego</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Monterey">
+			<ModelDisplayName>Monterey</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mountaineer">
+			<ModelDisplayName>Mountaineer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mystique">
+			<ModelDisplayName>Mystique</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sable">
+			<ModelDisplayName>Sable</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tracer">
+			<ModelDisplayName>Tracer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Villager">
+			<ModelDisplayName>Villager</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="MG">
+		<DisplayName>MG</DisplayName>
+		<Model aspectValue="MGA">
+			<ModelDisplayName>MGA</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MGB">
+			<ModelDisplayName>MGB</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Midget">
+			<ModelDisplayName>Midget</ModelDisplayName>
+		</Model>
+		<Model aspectValue="T-Series">
+			<ModelDisplayName>T-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Mini">
+		<DisplayName>Mini</DisplayName>
+		<Model aspectValue="Classic Mini">
+			<ModelDisplayName>Classic Mini</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Clubman">
+			<ModelDisplayName>Clubman</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mini Cooper">
+			<ModelDisplayName>Mini Cooper</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mini Cooper S">
+			<ModelDisplayName>Mini Cooper S</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Mitsubishi">
+		<DisplayName>Mitsubishi</DisplayName>
+		<Model aspectValue="3000GT">
+			<ModelDisplayName>3000GT</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Diamante">
+			<ModelDisplayName>Diamante</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Eclipse">
+			<ModelDisplayName>Eclipse</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Endeavor">
+			<ModelDisplayName>Endeavor</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Evolution">
+			<ModelDisplayName>Evolution</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Galant">
+			<ModelDisplayName>Galant</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Lancer">
+			<ModelDisplayName>Lancer</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Mirage">
+			<ModelDisplayName>Mirage</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Montero">
+			<ModelDisplayName>Montero</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Outlander">
+			<ModelDisplayName>Outlander</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Nash">
+		<DisplayName>Nash</DisplayName>
+	</Make>
+	<Make aspectValue="Nissan">
+		<DisplayName>Nissan</DisplayName>
+		<Model aspectValue="200SX">
+			<ModelDisplayName>200SX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="240SX">
+			<ModelDisplayName>240SX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="280ZX">
+			<ModelDisplayName>280ZX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="300ZX">
+			<ModelDisplayName>300ZX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="350Z">
+			<ModelDisplayName>350Z</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Altima">
+			<ModelDisplayName>Altima</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Armada">
+			<ModelDisplayName>Armada</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Frontier">
+			<ModelDisplayName>Frontier</ModelDisplayName>
+		</Model>
+		<Model aspectValue="GT-R">
+			<ModelDisplayName>GT-R</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Maxima">
+			<ModelDisplayName>Maxima</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Murano">
+			<ModelDisplayName>Murano</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Pathfinder">
+			<ModelDisplayName>Pathfinder</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Quest">
+			<ModelDisplayName>Quest</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Rogue">
+			<ModelDisplayName>Rogue</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sentra">
+			<ModelDisplayName>Sentra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Stanza">
+			<ModelDisplayName>Stanza</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Titan">
+			<ModelDisplayName>Titan</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Versa">
+			<ModelDisplayName>Versa</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Xterra">
+			<ModelDisplayName>Xterra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Other Pickups">
+			<ModelDisplayName>Other Pickups</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Oldsmobile">
+		<DisplayName>Oldsmobile</DisplayName>
+		<Model aspectValue="442">
+			<ModelDisplayName>442</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Alero">
+			<ModelDisplayName>Alero</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Aurora">
+			<ModelDisplayName>Aurora</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Bravada">
+			<ModelDisplayName>Bravada</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cutlass">
+			<ModelDisplayName>Cutlass</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Eighty-Eight">
+			<ModelDisplayName>Eighty-Eight</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Intrigue">
+			<ModelDisplayName>Intrigue</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ninety-Eight">
+			<ModelDisplayName>Ninety-Eight</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Silhouette">
+			<ModelDisplayName>Silhouette</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Toronado">
+			<ModelDisplayName>Toronado</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Opel">
+		<DisplayName>Opel</DisplayName>
+	</Make>
+	<Make aspectValue="Packard">
+		<DisplayName>Packard</DisplayName>
+	</Make>
+	<Make aspectValue="Peugeot">
+		<DisplayName>Peugeot</DisplayName>
+	</Make>
+	<Make aspectValue="Plymouth">
+		<DisplayName>Plymouth</DisplayName>
+		<Model aspectValue="Acclaim">
+			<ModelDisplayName>Acclaim</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Barracuda">
+			<ModelDisplayName>Barracuda</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Duster">
+			<ModelDisplayName>Duster</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Fury">
+			<ModelDisplayName>Fury</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Grand Voyager">
+			<ModelDisplayName>Grand Voyager</ModelDisplayName>
+		</Model>
+		<Model aspectValue="GTX">
+			<ModelDisplayName>GTX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Neon">
+			<ModelDisplayName>Neon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Prowler">
+			<ModelDisplayName>Prowler</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Road Runner">
+			<ModelDisplayName>Road Runner</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Satellite">
+			<ModelDisplayName>Satellite</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sundance">
+			<ModelDisplayName>Sundance</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Voyager">
+			<ModelDisplayName>Voyager</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Pontiac">
+		<DisplayName>Pontiac</DisplayName>
+		<Model aspectValue="Bonneville">
+			<ModelDisplayName>Bonneville</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Catalina">
+			<ModelDisplayName>Catalina</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Fiero">
+			<ModelDisplayName>Fiero</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Firebird">
+			<ModelDisplayName>Firebird</ModelDisplayName>
+		</Model>
+		<Model aspectValue="G6">
+			<ModelDisplayName>G6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="G8">
+			<ModelDisplayName>G8</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Grand Am">
+			<ModelDisplayName>Grand Am</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Grand Prix">
+			<ModelDisplayName>Grand Prix</ModelDisplayName>
+		</Model>
+		<Model aspectValue="GTO">
+			<ModelDisplayName>GTO</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Le Mans">
+			<ModelDisplayName>Le Mans</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Montana">
+			<ModelDisplayName>Montana</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Solstice">
+			<ModelDisplayName>Solstice</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sunbird">
+			<ModelDisplayName>Sunbird</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sunfire">
+			<ModelDisplayName>Sunfire</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tempest">
+			<ModelDisplayName>Tempest</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Trans Am">
+			<ModelDisplayName>Trans Am</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Vibe">
+			<ModelDisplayName>Vibe</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Porsche">
+		<DisplayName>Porsche</DisplayName>
+		<Model aspectValue="356">
+			<ModelDisplayName>356</ModelDisplayName>
+		</Model>
+		<Model aspectValue="911">
+			<ModelDisplayName>911</ModelDisplayName>
+		</Model>
+		<Model aspectValue="912">
+			<ModelDisplayName>912</ModelDisplayName>
+		</Model>
+		<Model aspectValue="914">
+			<ModelDisplayName>914</ModelDisplayName>
+		</Model>
+		<Model aspectValue="924">
+			<ModelDisplayName>924</ModelDisplayName>
+		</Model>
+		<Model aspectValue="928">
+			<ModelDisplayName>928</ModelDisplayName>
+		</Model>
+		<Model aspectValue="930">
+			<ModelDisplayName>930</ModelDisplayName>
+		</Model>
+		<Model aspectValue="944">
+			<ModelDisplayName>944</ModelDisplayName>
+		</Model>
+		<Model aspectValue="968">
+			<ModelDisplayName>968</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Boxster">
+			<ModelDisplayName>Boxster</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cayenne">
+			<ModelDisplayName>Cayenne</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cayman">
+			<ModelDisplayName>Cayman</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Renault">
+		<DisplayName>Renault</DisplayName>
+	</Make>
+	<Make aspectValue="Rolls-Royce">
+		<DisplayName>Rolls-Royce</DisplayName>
+		<Model aspectValue="Corniche">
+			<ModelDisplayName>Corniche</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Phantom">
+			<ModelDisplayName>Phantom</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Silver Seraph">
+			<ModelDisplayName>Silver Seraph</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Silver Shadow">
+			<ModelDisplayName>Silver Shadow</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Silver Spirit/Spur/Dawn">
+			<ModelDisplayName>Silver Spirit/Spur/Dawn</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Saab">
+		<DisplayName>Saab</DisplayName>
+		<Model aspectValue="900">
+			<ModelDisplayName>900</ModelDisplayName>
+		</Model>
+		<Model aspectValue="9000">
+			<ModelDisplayName>9000</ModelDisplayName>
+		</Model>
+		<Model aspectValue="9-2X">
+			<ModelDisplayName>9-2X</ModelDisplayName>
+		</Model>
+		<Model aspectValue="9-3">
+			<ModelDisplayName>9-3</ModelDisplayName>
+		</Model>
+		<Model aspectValue="9-5">
+			<ModelDisplayName>9-5</ModelDisplayName>
+		</Model>
+		<Model aspectValue="9-7x">
+			<ModelDisplayName>9-7x</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Saturn">
+		<DisplayName>Saturn</DisplayName>
+		<Model aspectValue="Astra">
+			<ModelDisplayName>Astra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Aura">
+			<ModelDisplayName>Aura</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Ion">
+			<ModelDisplayName>Ion</ModelDisplayName>
+		</Model>
+		<Model aspectValue="L-Series">
+			<ModelDisplayName>L-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Outlook">
+			<ModelDisplayName>Outlook</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S-Series">
+			<ModelDisplayName>S-Series</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sky">
+			<ModelDisplayName>Sky</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Vue">
+			<ModelDisplayName>Vue</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Scion">
+		<DisplayName>Scion</DisplayName>
+		<Model aspectValue="tC">
+			<ModelDisplayName>tC</ModelDisplayName>
+		</Model>
+		<Model aspectValue="xA">
+			<ModelDisplayName>xA</ModelDisplayName>
+		</Model>
+		<Model aspectValue="xB">
+			<ModelDisplayName>xB</ModelDisplayName>
+		</Model>
+		<Model aspectValue="xD">
+			<ModelDisplayName>xD</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Shelby">
+		<DisplayName>Shelby</DisplayName>
+		<Model aspectValue="Smart">
+			<ModelDisplayName>Smart</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Smart">
+		<DisplayName>Smart</DisplayName>
+	</Make>
+	<Make aspectValue="Studebaker">
+		<DisplayName>Studebaker</DisplayName>
+	</Make>
+	<Make aspectValue="Subaru">
+		<DisplayName>Subaru</DisplayName>
+		<Model aspectValue="Baja">
+			<ModelDisplayName>Baja</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Forester">
+			<ModelDisplayName>Forester</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Impreza">
+			<ModelDisplayName>Impreza</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Legacy">
+			<ModelDisplayName>Legacy</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Outback">
+			<ModelDisplayName>Outback</ModelDisplayName>
+		</Model>
+		<Model aspectValue="SVX">
+			<ModelDisplayName>SVX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tribeca">
+			<ModelDisplayName>Tribeca</ModelDisplayName>
+		</Model>
+		<Model aspectValue="WRX">
+			<ModelDisplayName>WRX</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Suzuki">
+		<DisplayName>Suzuki</DisplayName>
+	</Make>
+	<Make aspectValue="Toyota">
+		<DisplayName>Toyota</DisplayName>
+		<Model aspectValue="4Runner">
+			<ModelDisplayName>4Runner</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Avalon">
+			<ModelDisplayName>Avalon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Camry">
+			<ModelDisplayName>Camry</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Celica">
+			<ModelDisplayName>Celica</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Corolla">
+			<ModelDisplayName>Corolla</ModelDisplayName>
+		</Model>
+		<Model aspectValue="FJ Cruiser">
+			<ModelDisplayName>FJ Cruiser</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Highlander">
+			<ModelDisplayName>Highlander</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Land Cruiser">
+			<ModelDisplayName>Land Cruiser</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Matrix">
+			<ModelDisplayName>Matrix</ModelDisplayName>
+		</Model>
+		<Model aspectValue="MR2">
+			<ModelDisplayName>MR2</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Paseo">
+			<ModelDisplayName>Paseo</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Previa">
+			<ModelDisplayName>Previa</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Prius">
+			<ModelDisplayName>Prius</ModelDisplayName>
+		</Model>
+		<Model aspectValue="RAV4">
+			<ModelDisplayName>RAV4</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sequoia">
+			<ModelDisplayName>Sequoia</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Sienna">
+			<ModelDisplayName>Sienna</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Solara">
+			<ModelDisplayName>Solara</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Supra">
+			<ModelDisplayName>Supra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tercel">
+			<ModelDisplayName>Tercel</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tacoma">
+			<ModelDisplayName>Tacoma</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tundra">
+			<ModelDisplayName>Tundra</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Venza">
+			<ModelDisplayName>Venza</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Yaris">
+			<ModelDisplayName>Yaris</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Triumph">
+		<DisplayName>Triumph</DisplayName>
+		<Model aspectValue="Spitfire">
+			<ModelDisplayName>Spitfire</ModelDisplayName>
+		</Model>
+		<Model aspectValue="TR-6">
+			<ModelDisplayName>TR-6</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Volkswagen">
+		<DisplayName>Volkswagen</DisplayName>
+		<Model aspectValue="Beetle-Classic">
+			<ModelDisplayName>Beetle-Classic</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Beetle-New">
+			<ModelDisplayName>Beetle-New</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Bus/Vanagon">
+			<ModelDisplayName>Bus/Vanagon</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Cabrio">
+			<ModelDisplayName>Cabrio</ModelDisplayName>
+		</Model>
+		<Model aspectValue="EuroVan">
+			<ModelDisplayName>EuroVan</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Eos">
+			<ModelDisplayName>Eos</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Golf">
+			<ModelDisplayName>Golf</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Jetta">
+			<ModelDisplayName>Jetta</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Karmann Ghia">
+			<ModelDisplayName>Karmann Ghia</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Passat">
+			<ModelDisplayName>Passat</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Phaeton">
+			<ModelDisplayName>Phaeton</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Rabbit">
+			<ModelDisplayName>Rabbit</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Routan">
+			<ModelDisplayName>Routan</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Thing">
+			<ModelDisplayName>Thing</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Tiguan">
+			<ModelDisplayName>Tiguan</ModelDisplayName>
+		</Model>
+		<Model aspectValue="Touareg">
+			<ModelDisplayName>Touareg</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Volvo">
+		<DisplayName>Volvo</DisplayName>
+		<Model aspectValue="240">
+			<ModelDisplayName>240</ModelDisplayName>
+		</Model>
+		<Model aspectValue="740">
+			<ModelDisplayName>740</ModelDisplayName>
+		</Model>
+		<Model aspectValue="850">
+			<ModelDisplayName>850</ModelDisplayName>
+		</Model>
+		<Model aspectValue="940">
+			<ModelDisplayName>940</ModelDisplayName>
+		</Model>
+		<Model aspectValue="C30">
+			<ModelDisplayName>C30</ModelDisplayName>
+		</Model>
+		<Model aspectValue="C70">
+			<ModelDisplayName>C70</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S40">
+			<ModelDisplayName>S40</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S60">
+			<ModelDisplayName>S60</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S70">
+			<ModelDisplayName>S70</ModelDisplayName>
+		</Model>
+		<Model aspectValue="S80">
+			<ModelDisplayName>S80</ModelDisplayName>
+		</Model>
+		<Model aspectValue="V40">
+			<ModelDisplayName>V40</ModelDisplayName>
+		</Model>
+		<Model aspectValue="V50">
+			<ModelDisplayName>V50</ModelDisplayName>
+		</Model>
+		<Model aspectValue="V70">
+			<ModelDisplayName>V70</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XC (Cross Country)">
+			<ModelDisplayName>XC (Cross Country)</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XC60">
+			<ModelDisplayName>XC60</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XC70">
+			<ModelDisplayName>XC70</ModelDisplayName>
+		</Model>
+		<Model aspectValue="XC90">
+			<ModelDisplayName>XC90</ModelDisplayName>
+		</Model>
+		<Model aspectValue="!">
+			<ModelDisplayName>Other</ModelDisplayName>
+		</Model>
+	</Make>
+	<Make aspectValue="Willys">
+		<DisplayName>Willys</DisplayName>
+	</Make>
+	<Make aspectValue="Replica &amp; Kit Makes">
+		<DisplayName>Replica &amp; Kit Makes</DisplayName>
+	</Make>
+	<Make aspectValue="Other Makes">
+		<DisplayName>Other Makes</DisplayName>
+	</Make>
+</MagellanAspects>
+
+<!--built on: Fri Apr 24 15:05:35 2009 buildid: -->
+
+<!--source: C:\views\lab-build03_iceview_prod_dcp\DCP_assets\motors20\100\product_finder.xml-->
+]]>
+		</product_finder>
+</eBayMotors20Common>
