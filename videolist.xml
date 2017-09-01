@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<videos>
+	<video url="javascript:alert(1)" desc="javascript:alert(1)" time="1:38"/>
+	<video url="http://www.google.es" desc="<h1>foo </h1> " time="7:29"/>
+	<video url="/lib/yhst-11831401977086/i-feel.flv" desc="Interview: Brooke Green" time="0:37"/>
+</videos>
