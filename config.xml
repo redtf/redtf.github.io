@@ -3,7 +3,7 @@
 <MovieWidth>760</MovieWidth>
 <MovieHeight>540</MovieHeight>
 <BackgroundColor>FFFFFF</BackgroundColor>
-<MovieURL>javascript:alert(document.domain)</MovieURL>
+<MovieURL>swfAFM.swf</MovieURL>
 <ShowLoadingMov>1</ShowLoadingMov>
 <LoadingMovURL>swfAFM_preload.swf</LoadingMovURL>
 <ScaleLoadingMov>1</ScaleLoadingMov>
