@@ -11,7 +11,7 @@
 <chart_data>
 
 <piece>
-<name><script>alert(1)<script></name>
+<name><script>alert(1)</script></name>
 <value1>25</value1>
 </piece>
 
