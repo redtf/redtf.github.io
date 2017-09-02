@@ -3,16 +3,16 @@
 <MovieWidth>760</MovieWidth>
 <MovieHeight>540</MovieHeight>
 <BackgroundColor>FFFFFF</BackgroundColor>
-<MovieURL>swfAFM.swf</MovieURL>
+<MovieURL>FreeAgent_Pro_Utilities_Diagnostics.swf</MovieURL>
 <ShowLoadingMov>1</ShowLoadingMov>
-<LoadingMovURL>swfAFM_preload.swf</LoadingMovURL>
+<LoadingMovURL>FreeAgent_Pro_Utilities_Diagnostics_preload.swf</LoadingMovURL>
 <ScaleLoadingMov>1</ScaleLoadingMov>
 <LoadingMovPercentToLoad>40</LoadingMovPercentToLoad>
 <LoadingMovMinDuration>3</LoadingMovMinDuration>
 <ControllerColor>C8C8C8</ControllerColor>
 <ShowFFRW>1</ShowFFRW>
 <ShowAbout>0</ShowAbout>
-<AboutBoxText><img src=x onerror=alert(document.cookie)><a href="javascript:alert(1)"> clickme </a></AboutBoxText>
+<AboutBoxText><img src="x" onerror=alert(document.cookie)><a href="javascript:alert(1)"> clickme </a></AboutBoxText>
 <TimeDisplayFormat>MM:SS</TimeDisplayFormat>
 <ShowDuration>1</ShowDuration>
 <ShowElapsedTime>1</ShowElapsedTime>
