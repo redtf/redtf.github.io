@@ -1,8 +1,8 @@
 <config>
 <AutoStart>1</AutoStart>
-<MovieWidth>640</MovieWidth>
-<MovieHeight>480</MovieHeight>
-<BackgroundColor>000000</BackgroundColor>
+<MovieWidth>800</MovieWidth>
+<MovieHeight>600</MovieHeight>
+<BackgroundColor>FFFFFF</BackgroundColor>
 <MovieURL>http://thebest404pageever.com/swf/sunnyday.swf</MovieURL>
 <ShowLoadingMov>1</ShowLoadingMov>
 <LoadingMovURL>http://thebest404pageever.com/swf/sunnyday.swf</LoadingMovURL>
