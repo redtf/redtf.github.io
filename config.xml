@@ -12,7 +12,7 @@
 <ControllerColor>C8C8C8</ControllerColor>
 <ShowFFRW>1</ShowFFRW>
 <ShowAbout>0</ShowAbout>
-<AboutBoxText><img src="x" onerror="alert(document.cookie)"><a href="javascript:alert(1)"> clickme </a></AboutBoxText>
+<AboutBoxText><img src="x" onerror="alert(document.cookie)"><a href="javascript:alert(1)"> clickme </a></img></AboutBoxText>
 <TimeDisplayFormat>MM:SS</TimeDisplayFormat>
 <ShowDuration>1</ShowDuration>
 <ShowElapsedTime>1</ShowElapsedTime>
