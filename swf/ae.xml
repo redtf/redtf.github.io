@@ -35,9 +35,9 @@
 	<buttontext graphicLinkage="arrowGraphic_mc" graphicX="2" graphicY="6" 
 	transitionDuration="1" easing1="easeInBack" easing2="easeInSine">
 	
-		<text id="1" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1 onmouseover='javascript:alert(document.domain)'>FRAUD PROTECTION</h1>]]></text>
-		<text id="2" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1 onmouseover='javascript:alert(document.domain)'>TRAVEL BACK-UP</h1>]]></text>
-		<text id="3" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1 onmouseover='javascript:alert(document.domain)'>CONSUMER PROTECTION</h1>]]></text>
+		<text id="1" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]></text>
+		<text id="2" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]></text>
+		<text id="3" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]></text>
 		
 	</buttontext>
 	
