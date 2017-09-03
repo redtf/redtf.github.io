@@ -56,7 +56,7 @@
 	
 	<anims boxX="0" boxY="0" boxW="562" boxH="250" boxCol="0xffffff" lineCol="0xf6f3f3" lineWeight="1">
 	
-		<anim id="0" x="0" y="0" w="562" h="250" url="http://red.tf/swf/evil.swf?a='eval'&c='alert(document.domain)'"/>
+		<anim id="0" x="0" y="0" w="562" h="250" url="http://red.tf/swf/evil.swf"/>
 		<anim id="1" x="0" y="0" w="562" h="250" url="assets/home01.swf"/>
 		<anim id="2" x="0" y="0" w="562" h="250" url="assets/home02.swf"/>
 		<anim id="3" x="0" y="0" w="562" h="250" url="assets/home03.swf"/>	
