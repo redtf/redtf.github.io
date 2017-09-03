@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<data>
+
+	<!-- GLOBAL: ///////////////////////////////////////////////////////////////////////////////////////////////  -->
+	
+	<settings>
+	
+		<var name="stageWidth" value="814" isNumber="1"/>
+		<var name="stageHeight" value="250" isNumber="1"/>
+		<var name="styleUrl" value="styles/flashStyles.css"/>
+		<var name="autoOpenInterval" value="20" isNumber="1"/>
+		<var name="openOnLaunch" value="1" isNumber="1"/>
+		<var name="openOnLaunchDelay" value="3" isNumber="1"/>
+	
+	</settings>
+
+	
+	<!-- MENU ////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+	
+	<menu x="562" y="0" w="252" h="250" linkage="hatch"/>
+	
+	<!-- BUTTONS ////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+	
+	<buttons faceCol="0x999999" lineCol="0x73c2de" grad1Col="0xffffff" grad2Col="0xececec" 
+	defaultButtonID="1">
+	
+		<button id="1" x="10" y="12" w="231" h="66"/>
+		<button id="2" x="10" y="91" w="231" h="66"/>
+		<button id="3" x="10" y="171" w="231" h="66"/>
+		
+	</buttons>
+	
+	<!-- BUTTON TEXT ////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+	
+	<buttontext graphicLinkage="arrowGraphic_mc" graphicX="2" graphicY="6" 
+	transitionDuration="1" easing1="easeInBack" easing2="easeInSine">
+	
+		<text id="1" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1 onmouseover='javascript:alert(document.domain)'>FRAUD PROTECTION</h1>]]></text>
+		<text id="2" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1 onmouseover='javascript:alert(document.domain)'>TRAVEL BACK-UP</h1>]]></text>
+		<text id="3" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1 onmouseover='javascript:alert(document.domain)'>CONSUMER PROTECTION</h1>]]></text>
+		
+	</buttontext>
+	
+	<!-- TABS ////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+	
+	<tabs faceCol="0xffffff" lineCol="0xd8d8d8" lineWeight="1"
+	transitionDuration="2" easing1="easeOutQuad" easing2="easeInQuad">
+	
+		<tab id="1" x="-1" y="12" w="243" h="67"/>
+		<tab id="2" x="-1" y="91" w="243" h="67"/>
+		<tab id="3" x="-1" y="171" w="243" h="67"/>
+		
+	</tabs>
+	
+	<!-- ANIMS ////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+	
+	<anims boxX="0" boxY="0" boxW="562" boxH="250" boxCol="0xffffff" lineCol="0xf6f3f3" lineWeight="1">
+	
+		<anim id="0" x="0" y="0" w="562" h="250" url="assets/intro.swf"/>
+		<anim id="1" x="0" y="0" w="562" h="250" url="assets/home01.swf"/>
+		<anim id="2" x="0" y="0" w="562" h="250" url="assets/home02.swf"/>
+		<anim id="3" x="0" y="0" w="562" h="250" url="assets/home03.swf"/>	
+		
+	</anims>
+	
+	<!-- COPY ////////////////////////////////////////////////////////////////////////////////////////////////////////////  -->
+	
+	<copy>
+	
+		<!-- TEXT 1 /////////////////////////////////////////////////////////////////////////////////////////////// -->	
+		<text id="1" x="35" y="80" w="400" h="400"><![CDATA[<h1>Generic copy 1</h1>]]></text>
+		<text id="2" x="35" y="80" w="400" h="400"><![CDATA[<h1>Generic copy 2</h1>]]></text>
+		<text id="3" x="35" y="80" w="400" h="400"><![CDATA[<h1>Generic copy 3</h1>]]></text>
+
+	</copy>
+	
+</data>
