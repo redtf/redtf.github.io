@@ -67,7 +67,7 @@
       <align>left</align> 
 	  <text_size>14</text_size>           
       <text>                      
-        <![CDATA[<b><img src=x onerror='javascript:alert(document.domain)'></b>]]>
+        <![CDATA[<b>Texto 1 <img src=x onerror='javascript:alert(document.domain)'></b>]]>
       </text>        
     </label>                   
     <label>
@@ -75,7 +75,7 @@
       <y>420</y>                  
       <rotate>90</rotate>         
       <text>                      
-        <![CDATA[<b><<a href='javascript:alert(document.domain)'>Click me</a></b>]]>
+        <![CDATA[<b>Texto 2 <a href='javascript:alert(document.domain)'>Click me</a></b>]]>
       </text>        
     </label>
     <label>
