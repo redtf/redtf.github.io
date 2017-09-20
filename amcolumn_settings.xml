@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings> 
+  <font>Tahoma</font>              
+  <text_color>7F8DA9</text_color>
+    
+  <column>
+    <width>85</width>              
+    <spacing>0</spacing>           
+    <grow_time>2</grow_time>
+    <sequenced_grow>true</sequenced_grow>       
+  </column>
+     
+  <plot_area>                      
+    <margins>                      
+      <left>54</left>               
+      <top>30</top>                  
+      <right>0</right>             
+      <bottom>20</bottom>          
+    </margins>
+	<color>e1e8ee</color>
+    <alpha>20</alpha>
+  </plot_area>
+  
+  <grid>                           
+    <category>                                                                          
+      <alpha>5</alpha>             
+      <dashed>true</dashed>        
+    </category>
+    <value>                              
+      <alpha>5</alpha>             
+      <dashed>true</dashed>        
+      <dash_length>5</dash_length> 
+    </value>
+  </grid>
+  
+  <values>                         
+    <category>                     
+      <frequency>1</frequency>     
+      <rotate>75</rotate>                
+      <text_size>9</text_size>        
+    </category>
+    <value>                        
+      <min>0</min>                 
+      <skip_last>false</skip_last>  
+    </value>
+  </values>
+  
+  <axes>                           
+    <category>                     
+      <color>#7F8DA9</color>       
+      <width>1</width>             
+    </category>
+    <value>                        
+      <color>#7F8DA9</color>       
+      <width>1</width>             
+    </value>
+  </axes>  
+    
+  <legend>                        
+    <enabled>true</enabled>      
+  </legend>
+  
+  <labels>  
+     <label>
+      <x>260</x>                    
+      <y>0</y>                  
+      <align>left</align> 
+	  <text_size>14</text_size>           
+      <text>                      
+        <![CDATA[<b><img src=x onerror='javascript:alert(document.domain)'></b>]]>
+      </text>        
+    </label>                   
+    <label>
+      <x>0</x>                    
+      <y>420</y>                  
+      <rotate>90</rotate>         
+      <text>                      
+        <![CDATA[<b><<a href='javascript:alert(document.domain)'>Click me</a></b>]]>
+      </text>        
+    </label>
+    <label>
+      <x>600</x> 
+      <y>480</y>
+      <align>left</align>  
+      <text>                   
+        <![CDATA[Source: Bureau of Labor Statistics]]>
+      </text>        
+    </label>
+  </labels>
+  
+  <graphs>                                          
+    <graph gid="1">                                 
+      <title>Previous Administration</title>        
+	  <color>b27f43</color>                
+      <!-- <color>336699</color> -->                         
+      <balloon_text>
+        <![CDATA[Net Job Gain/Loss in {series}: {value}]]>   
+      </balloon_text>       
+    </graph>
+
+   <graph gid="2">                                 
+      <title>Obama Administration</title>                        
+      <color>336699</color>   
+	  <!-- <color>b2814a</color> -->                   
+      <balloon_text>
+        <![CDATA[Net Job Gain/Loss in {series}: {value}]]>   
+      </balloon_text>       
+    </graph>
+  </graphs>
+  
+  <guides>
+    <guide>
+      <start_value>0</start_value>
+      <end_value>0.8</end_value>
+      <alpha>0</alpha>
+      <fill_color>#FFFFFF,#CC0000</fill_color>
+      <fill_alpha>20</fill_alpha>
+    </guide>
+    <guide>
+      <start_value>0</start_value>
+      <end_value>-0.4</end_value>
+      <alpha>0</alpha>
+      <fill_color>#FFFFFF,#0000CC</fill_color>
+      <fill_alpha>20</fill_alpha>
+    </guide>    
+  </guides>
+</settings>
