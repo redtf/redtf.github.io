@@ -9,7 +9,7 @@
 <body id="thebody" style="defaultCaption">
 	<div xml:lang="en">
 		<p begin="00:00:05.500" end="00:00:31.000">(<a href="javascript:alert(document.domain)">CLICK ME</a><span style="it">music playing</span>)</p>
-		<p begin="00:00:31.700" end="00:00:34.366"><img src='x' onerror="alert(document.domain)"><br/>of "Ice Age"</p>
+		<p begin="00:00:31.700" end="00:00:34.366"><img src='x' onerror="alert(document.domain)"></img><br/>of "Ice Age"</p>
 		<p begin="00:00:34.400" end="00:00:39.233">and the imagination<br/>of Dr. Seuss,</p>
 		<p begin="00:00:39.233" end="00:00:45.133">next spring, the biggest<br/>adventure of all time</p>
 		<p begin="00:00:45.133" end="00:00:49.433">is going to happen<br/>in the smallest of places.</p>
