@@ -8,37 +8,8 @@
 </head>
 <body id="thebody" style="defaultCaption">
 	<div xml:lang="en">
-		<p begin="00:00:05.500" end="00:00:31.000">(<a href="javascript:alert(document.domain)">CLICK ME</a><span style="it">music playing</span>)</p>
-		<p begin="00:00:31.700" end="00:00:34.366"><img src='x' onerror="javascript:alert(document.domain)"></img><br/>of "Ice Age"</p>
-		<p begin="00:00:34.400" end="00:00:39.233"><svg onload="javascript:alert(document.domain)"></svg><br/>of Dr. Seuss,</p>
-		<p begin="00:00:39.233" end="00:00:45.133">next spring, the biggest<br/>adventure of all time</p>
-		<p begin="00:00:45.133" end="00:00:49.433">is going to happen<br/>in the smallest of places.</p>
-		<p begin="00:00:53.100" end="00:00:54.267">Oh, my gosh!</p>
-		<p begin="00:00:56.500" end="00:00:58.067">Ah!</p>
-		<p begin="00:00:59.300" end="00:01:01.767">( screaming )</p>
-		<p begin="00:01:01.767" end="00:01:05.433">ANNOUNCER:<br/>20th Century Fox presents</p>
-		<p begin="00:01:05.433" end="00:01:08.433">a Blue Sky Animation Studios<br/>film.</p>
-		<p begin="00:01:11.167" end="00:01:12.400">( elephant gasping )</p>
-		<p begin="00:01:12.400" end="00:01:13.233">Hello.</p>
-		<p begin="00:01:13.233" end="00:01:14.367">( "Hello" echoing )</p>
-		<p begin="00:01:14.367" end="00:01:15.633">Hello.</p>
-		<p begin="00:01:17.233" end="00:01:18.400">ANNOUNCER:<br/>Jim Carrey...</p>
-		<p begin="00:01:18.400" end="00:01:20.767">Just me and the speck<br/>shooting the breeze.</p>
-		<p begin="00:01:20.767" end="00:01:21.933">We're a club.</p>
-		<p begin="00:01:21.933" end="00:01:23.100">We're a group.</p>
-		<p begin="00:01:23.100" end="00:01:24.733">We can be a secret society,</p>
-		<p begin="00:01:24.733" end="00:01:27.667">and no one else can join<br/>unless they wear funny hats.</p>
-		<p begin="00:01:27.667" end="00:01:29.533">ANNOUNCER:<br/>...Steve Carell...</p>
-		<p begin="00:01:29.533" end="00:01:31.933">Hey, hon, did you ever<br/>get the feeling</p>
-		<p begin="00:01:31.933" end="00:01:34.033">that you were being watched</p>
-		<p begin="00:01:34.033" end="00:01:38.967">and that maybe that thing<br/>watching you is, uh,</p>
-		<p begin="00:01:38.967" end="00:01:40.633">a giant elephant?</p>
-		<p begin="00:01:40.633" end="00:01:44.600">Um, you know,<br/>I'm going to have to say no.</p>
-		<p begin="00:01:44.600" end="00:01:46.733">Do you know that feeling?</p>
-		<p begin="00:01:47.767" end="00:01:51.067">Ah, oh, no!</p>
-		<p begin="00:01:51.067" end="00:01:55.200">ANNOUNCER: ...in Dr. Seuss'<br/>"Horton Hears a Who!"</p>
-		<p begin="00:01:58.333" end="00:02:02.667">Ah, nothing wrong with this,<br/>Morton.</p>
-		<p begin="00:02:02.667" end="00:02:04.633">Nothing wrong with this.</p>
+		<p begin="00:00:00.00" end="00:00:20.000">(<a href="javascript:alert(document.domain)">CLICK ME</a><span style="it">music playing</span>)</p>
+		<p begin="00:00:20.100" end="00:00:34.000"><img src='x' onerror="javascript:alert(document.domain)">a</img><br/><b onmouseover="javascript:alert(document.domain)">OVER ME</b></p>
 	</div>
 </body>
 </tt>
