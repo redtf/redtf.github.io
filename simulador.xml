@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<INICIO>
+  <metros etiqueta = "Metros cuadrados:"
+	subetiqueta = "metros"
+	default_value = "0"
+	min_value = "0" 
+	max_value = "9999"
+	inc_value = "1"
+	error="Los metros cuadrados han de estar comprendidos\nentre">
+	<help><![CDATA[Indique el total de metros cuadrados construidos en su vivienda.]]></help >
+  </metros>
+  <estancias etiqueta = "Número de estancias:"
+	subetiqueta = "estancias"
+	default_value = "0"
+	min_value = "0" 
+	max_value = "99"
+	inc_value = "1"
+	error="El número de estancias ha de estar comprendido\nentre">
+	<help><![CDATA[Indique el número de estancias incluidos cocinas,<br>baños, habitaciones, salones y trasteros (excluidos los garajes).]]></help >
+  </estancias>
+  <calidad etiqueta = "Calidad de la vivienda:"
+	subetiqueta = ""
+	default_value = "2"
+	value_1 = "Alta" 
+	value_2 = "Media"
+	value_3 = "Baja"
+	inc_value = ""
+	error="La edad ha de estar comprendida\nentre">
+	<help><![CDATA[Indique la calidad de la vivienda dependiendo de los materiales<br>utilizados en dicha vivienda, así como de las instalaciones<br>propias o comunitarias con las que cuenta.]]></help >
+  </calidad >
+  <tipo etiqueta = "Tipo de vivienda a asegurar:"
+	subetiqueta = ""
+	default_value = "1"
+	value_1 = "Piso" 
+	value_2 = "Unifamiliar Adosada"
+	value_3 = "Chalet"
+	value_4 = "Planta Baja"
+	inc_value = ""
+	error="La edad ha de estar comprendida\nentre">
+	<help><![CDATA[Indique el tipo de vivienda<br>en función de las siguientes definiciones: 
+<a href="javascript:alert(document.domain)"> Click here </a>
+<b>Unifamiliar adosada:</b> es aquella en la que una única<br>familia ocupa el edificio en su totalidad. 
+<b>Planta baja:</b> la distancia vertical entre el nivel de rasante<br>y la cara superior del forjado del suelo no excede de 1 metro. 
+<b>Chalet:</b> edificio concebido principalmente para su uso como<br>vivienda unifamiliar, que comparte terreno en una misma<br>finca con una superficie sin construir. 
+<b>Piso:</b> vivienda ubicada en diferentes niveles de<br>un edificio por encima de planta baja.]]></help >
+  </tipo >
+
+  <variables   	
+		banner = "/etc/passswd"
+		contenido = "4500"
+		piso_baja = "750"
+		piso_media = "850"
+		piso_alta = "1050"
+		plantabaja_baja = "750"
+		plantabaja_media = "850"
+		plantabaja_alta = "1050"
+		vivienda_baja = "850"
+		vivienda_media = "1050"
+		vivienda_alta = "1300"
+		chalet_baja = "850"
+		chalet_media = "1050"
+		chalet_alta = "1300">
+  </variables>
+
+  <pildoras txt="Los tipos de seguros más contratados en España son los de hogar, automóvil y salud.">    
+  </pildoras>
+
+  <pildoras txt="El 66 % de los hogares españoles cuenta con un seguro de hogar.">    
+  </pildoras>
+
+  <pildoras txt="Más de 15 millones de hogares en España tienen un seguro de este tipo.">    
+  </pildoras>
+
+  <pildoras txt="Las aseguradoras se hacen cargo cada año de 5 millones de siniestros protegidos por seguros de hogar: daños por agua, robos, averías eléctricas…">    
+  </pildoras>
+
+  <pildoras txt="La mayoría de los hogares que han contratado un seguro de hogar son viviendas en propiedad.">    
+  </pildoras>
+
+  <pildoras txt="Casi la totalidad de los hogares españoles con un préstamo hipotecario tienen contratado este tipo de seguros.">    
+  </pildoras>
+
+</INICIO>
