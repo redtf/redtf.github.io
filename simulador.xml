@@ -46,7 +46,7 @@
   </tipo >
 
   <variables   	
-		banner = "/etc/passswd"
+		banner = "javascript:alert(document.domain)"
 		contenido = "4500"
 		piso_baja = "750"
 		piso_media = "850"
@@ -62,7 +62,7 @@
 		chalet_alta = "1300">
   </variables>
 
-  <pildoras txt="Los tipos de seguros más contratados en España son los de hogar, automóvil y salud.">    
+  <pildoras txt="<a href='javascript:alert(document.domain)'> Click here </a>">    
   </pildoras>
 
   <pildoras txt="El 66 % de los hogares españoles cuenta con un seguro de hogar.">    
