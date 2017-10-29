@@ -142,7 +142,7 @@
    <products>
      			<product id="1" image_use_url="1">
 					<name>Die Blue Card</name>
-					<image>javascript:alert(document.domain)/image>
+					<image>javascript:alert(document.domain)></image>
 					<image_small>javascript:alert(document.domain)</image_small>
 					<info>
 						<header><![CDATA[Die Blue Card gibt es im 1. Jahr kostenlos. Die Karte, die Ihnen zahlreiche Einsatzmöglichkeiten bietet und bereits ab einem Jahresumsatz von nur €3.500,- auch weiterhin kostenfrei bleibt.]]></header>
