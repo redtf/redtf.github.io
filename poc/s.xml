@@ -21,9 +21,9 @@
    </settings>
    <top_options>
       <option id="0">
-         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]]></title>
-         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]]></body>
-         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]]></button>
+         <title><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]></title>
+         <body><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a><svg onload='javascript:alert(document.domain)'></svg><img src='x' onload='javascript:alert(document.domain)'></img>]]></body>
+         <button><![CDATA[<a href='javascript:alert(document.domain)'>Click me</a>]]></button>
       </option>
       <option id="1">
          <title><![CDATA[Karten vergleichen]]></title>
